@@ -3,7 +3,7 @@
 
 #define MAPSEC_LITTLEROOT_TOWN              0x00 //Eliminado
 #define MAPSEC_OLDALE_TOWN                  0x01 //Eliminado
-#define MAPSEC_DEWFORD_TOWN                 0x02
+#define MAPSEC_DEWFORD_TOWN                 0x02 //Eliminado
 #define MAPSEC_LAVARIDGE_TOWN               0x03
 #define MAPSEC_FALLARBOR_TOWN               0x04
 #define MAPSEC_VERDANTURF_TOWN              0x05
