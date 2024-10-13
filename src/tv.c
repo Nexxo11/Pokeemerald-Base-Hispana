@@ -825,28 +825,16 @@ u8 FindAnyTVShowOnTheAir(void)
 void UpdateTVScreensOnMap(int width, int height)
 {
     FlagSet(FLAG_SYS_TV_WATCH);
-    switch (CheckForPlayersHouseNews())
+    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_COVE_LILY_MOTEL_1F)
+     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_COVE_LILY_MOTEL_1F))
     {
-    case PLAYERS_HOUSE_TV_LATI:
+        // NPC in Lilycove Hotel is always watching TV
         SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
-        break;
-    case PLAYERS_HOUSE_TV_MOVIE:
-        // Don't flash TV for movie text in player's house
-        break;
-//  case PLAYERS_HOUSE_TV_NONE:
-    default:
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_COVE_LILY_MOTEL_1F)
-         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_COVE_LILY_MOTEL_1F))
-        {
-            // NPC in Lilycove Hotel is always watching TV
-            SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
-        }
-        else if (FlagGet(FLAG_SYS_TV_START) && (FindAnyTVShowOnTheAir() != 0xFF || FindAnyPokeNewsOnTheAir() != 0xFF || IsGabbyAndTyShowOnTheAir()))
-        {
-            FlagClear(FLAG_SYS_TV_WATCH);
-            SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
-        }
-        break;
+    }
+    else if (FlagGet(FLAG_SYS_TV_START) && (FindAnyTVShowOnTheAir() != 0xFF || FindAnyPokeNewsOnTheAir() != 0xFF || IsGabbyAndTyShowOnTheAir()))
+    {
+        FlagClear(FLAG_SYS_TV_WATCH);
+        SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
     }
 }
 
@@ -3322,89 +3310,6 @@ static u8 GetTVGroupByShowId(u8 kind)
 u32 GetPlayerIDAsU32(void)
 {
     return (gSaveBlock2Ptr->playerTrainerId[3] << 24) | (gSaveBlock2Ptr->playerTrainerId[2] << 16) | (gSaveBlock2Ptr->playerTrainerId[1] << 8) | gSaveBlock2Ptr->playerTrainerId[0];
-}
-
-u8 CheckForPlayersHouseNews(void)
-{
-    // Check if not in Littleroot house map group
-    if (gSaveBlock1Ptr->location.mapGroup != MAP_GROUP(LITTLEROOT_TOWN_BRENDANS_HOUSE_1F))
-        return PLAYERS_HOUSE_TV_NONE;
-
-    // Check if not in player's house (dependent on gender)
-    if (gSaveBlock2Ptr->playerGender == MALE)
-    {
-        if (gSaveBlock1Ptr->location.mapNum != MAP_NUM(LITTLEROOT_TOWN_BRENDANS_HOUSE_1F))
-            return PLAYERS_HOUSE_TV_NONE;
-    }
-    else
-    {
-        if (gSaveBlock1Ptr->location.mapNum != MAP_NUM(LITTLEROOT_TOWN_MAYS_HOUSE_1F))
-            return PLAYERS_HOUSE_TV_NONE;
-    }
-
-    if (FlagGet(FLAG_SYS_TV_LATIAS_LATIOS) == TRUE)
-        return PLAYERS_HOUSE_TV_LATI;
-
-    if (FlagGet(FLAG_SYS_TV_HOME) == TRUE)
-        return PLAYERS_HOUSE_TV_MOVIE;
-
-    return PLAYERS_HOUSE_TV_LATI;
-}
-
-void GetMomOrDadStringForTVMessage(void)
-{
-    // If the player is checking the TV in their house it will only refer to their Mom.
-    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LITTLEROOT_TOWN_BRENDANS_HOUSE_1F))
-    {
-        if (gSaveBlock2Ptr->playerGender == MALE)
-        {
-            if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LITTLEROOT_TOWN_BRENDANS_HOUSE_1F))
-            {
-                StringCopy(gStringVar1, gText_Mom);
-                VarSet(VAR_TEMP_3, 1);
-            }
-        }
-        else
-        {
-            if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LITTLEROOT_TOWN_MAYS_HOUSE_1F))
-            {
-                StringCopy(gStringVar1, gText_Mom);
-                VarSet(VAR_TEMP_3, 1);
-            }
-        }
-    }
-    if (VarGet(VAR_TEMP_3) == 1)
-    {
-        StringCopy(gStringVar1, gText_Mom);
-    }
-    else if (VarGet(VAR_TEMP_3) == 2)
-    {
-        StringCopy(gStringVar1, gText_Dad);
-    }
-    else if (VarGet(VAR_TEMP_3) > 2)
-    {
-        // Should only happen if VAR_TEMP_3 is already in use by something else.
-        if (VarGet(VAR_TEMP_3) % 2 == 0)
-            StringCopy(gStringVar1, gText_Mom);
-        else
-            StringCopy(gStringVar1, gText_Dad);
-    }
-    else
-    {
-        // Randomly choose whether to refer to Mom or Dad.
-        // NOTE: Because of this, any map that has a TV in it shouldn't rely on VAR_TEMP_3.
-        //       If its value is 0, checking the TV will set it to 1 or 2.
-        if (Random() % 2 != 0)
-        {
-            StringCopy(gStringVar1, gText_Mom);
-            VarSet(VAR_TEMP_3, 1);
-        }
-        else
-        {
-            StringCopy(gStringVar1, gText_Dad);
-            VarSet(VAR_TEMP_3, 2);
-        }
-    }
 }
 
 void HideBattleTowerReporter(void)
