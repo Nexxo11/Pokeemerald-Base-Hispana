@@ -44,7 +44,6 @@
         "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
-        "OldaleTown",
         "DewfordTown",
         "LavaridgeTown",
         "FallarborTown",
@@ -93,13 +92,7 @@
         "Underwater_Route125"
     ],
     "gMapGroup_IndoorLittleroot": [],
-    "gMapGroup_IndoorOldale": [
-        "OldaleTown_House1",
-        "OldaleTown_House2",
-        "OldaleTown_PokemonCenter_1F",
-        "OldaleTown_PokemonCenter_2F",
-        "OldaleTown_Mart"
-    ],
+    "gMapGroup_IndoorOldale": [],
     "gMapGroup_IndoorDewford": [
         "DewfordTown_House1",
         "DewfordTown_PokemonCenter_1F",
@@ -594,7 +587,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "OldaleTown",
         "DewfordTown",
         "LavaridgeTown",
         "FallarborTown",
