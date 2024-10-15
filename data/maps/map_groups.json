@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "FortreeCity",
         "LilycoveCity",
         "MossdeepCity",
         "SootopolisCity",
@@ -93,18 +92,7 @@
     "gMapGroup_IndoorSlateport": [],
     "gMapGroup_IndoorMauville": [],
     "gMapGroup_IndoorRustboro": [],
-    "gMapGroup_IndoorFortree": [
-        "FortreeCity_House1",
-        "FortreeCity_Gym",
-        "FortreeCity_PokemonCenter_1F",
-        "FortreeCity_PokemonCenter_2F",
-        "FortreeCity_Mart",
-        "FortreeCity_House2",
-        "FortreeCity_House3",
-        "FortreeCity_House4",
-        "FortreeCity_House5",
-        "FortreeCity_DecorationShop"
-    ],
+    "gMapGroup_IndoorFortree": [],
     "gMapGroup_IndoorLilycove": [
         "LilycoveCity_CoveLilyMotel_1F",
         "LilycoveCity_CoveLilyMotel_2F",
@@ -486,7 +474,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "FortreeCity",
         "LilycoveCity",
         "MossdeepCity",
         "SootopolisCity",
