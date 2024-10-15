@@ -44,7 +44,6 @@
         "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
-        "PacifidlogTown",
         "Route101",
         "Route102",
         "Route103",
@@ -93,15 +92,7 @@
     "gMapGroup_IndoorLavaridge": [],
     "gMapGroup_IndoorFallarbor": [],
     "gMapGroup_IndoorVerdanturf": [],
-    "gMapGroup_IndoorPacifidlog": [
-        "PacifidlogTown_PokemonCenter_1F",
-        "PacifidlogTown_PokemonCenter_2F",
-        "PacifidlogTown_House1",
-        "PacifidlogTown_House2",
-        "PacifidlogTown_House3",
-        "PacifidlogTown_House4",
-        "PacifidlogTown_House5"
-    ],
+    "gMapGroup_IndoorPacifidlog": [],
     "gMapGroup_IndoorPetalburg": [
         "PetalburgCity_WallysHouse",
         "PetalburgCity_Gym",
@@ -549,7 +540,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "PacifidlogTown",
         "PetalburgCity",
         "SlateportCity",
         "MauvilleCity",

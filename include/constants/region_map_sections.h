@@ -7,7 +7,7 @@
 #define MAPSEC_LAVARIDGE_TOWN               0x03 //Eliminado
 #define MAPSEC_FALLARBOR_TOWN               0x04 //Eliminado
 #define MAPSEC_VERDANTURF_TOWN              0x05 //Eliminado
-#define MAPSEC_PACIFIDLOG_TOWN              0x06
+#define MAPSEC_PACIFIDLOG_TOWN              0x06 //Eliminado
 #define MAPSEC_PETALBURG_CITY               0x07
 #define MAPSEC_SLATEPORT_CITY               0x08
 #define MAPSEC_MAUVILLE_CITY                0x09
