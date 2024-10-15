@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
         "Route101",
@@ -93,21 +92,7 @@
     "gMapGroup_IndoorRustboro": [],
     "gMapGroup_IndoorFortree": [],
     "gMapGroup_IndoorLilycove": [],
-    "gMapGroup_IndoorMossdeep": [
-        "MossdeepCity_Gym",
-        "MossdeepCity_House1",
-        "MossdeepCity_House2",
-        "MossdeepCity_PokemonCenter_1F",
-        "MossdeepCity_PokemonCenter_2F",
-        "MossdeepCity_Mart",
-        "MossdeepCity_House3",
-        "MossdeepCity_StevensHouse",
-        "MossdeepCity_House4",
-        "MossdeepCity_SpaceCenter_1F",
-        "MossdeepCity_SpaceCenter_2F",
-        "MossdeepCity_GameCorner_1F",
-        "MossdeepCity_GameCorner_B1F"
-    ],
+    "gMapGroup_IndoorMossdeep": [],
     "gMapGroup_IndoorSootopolis": [
         "SootopolisCity_Gym_1F",
         "SootopolisCity_Gym_B1F",
@@ -450,7 +435,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
         "Route101",
