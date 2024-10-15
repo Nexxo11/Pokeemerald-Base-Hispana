@@ -16,7 +16,7 @@
 #define MAPSEC_LILYCOVE_CITY                0x0C //Eliminado
 #define MAPSEC_MOSSDEEP_CITY                0x0D //Eliminado
 #define MAPSEC_SOOTOPOLIS_CITY              0x0E //Eliminado
-#define MAPSEC_EVER_GRANDE_CITY             0x0F //
+#define MAPSEC_EVER_GRANDE_CITY             0x0F //Eliminado
 #define MAPSEC_ROUTE_101                    0x10
 #define MAPSEC_ROUTE_102                    0x11
 #define MAPSEC_ROUTE_103                    0x12

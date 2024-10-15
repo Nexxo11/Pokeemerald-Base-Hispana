@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "EverGrandeCity",
         "Route101",
         "Route102",
         "Route103",
@@ -93,23 +92,7 @@
     "gMapGroup_IndoorLilycove": [],
     "gMapGroup_IndoorMossdeep": [],
     "gMapGroup_IndoorSootopolis": [],
-    "gMapGroup_IndoorEverGrande": [
-        "EverGrandeCity_SidneysRoom",
-        "EverGrandeCity_PhoebesRoom",
-        "EverGrandeCity_GlaciasRoom",
-        "EverGrandeCity_DrakesRoom",
-        "EverGrandeCity_ChampionsRoom",
-        "EverGrandeCity_Hall1",
-        "EverGrandeCity_Hall2",
-        "EverGrandeCity_Hall3",
-        "EverGrandeCity_Hall4",
-        "EverGrandeCity_Hall5",
-        "EverGrandeCity_PokemonLeague_1F",
-        "EverGrandeCity_HallOfFame",
-        "EverGrandeCity_PokemonCenter_1F",
-        "EverGrandeCity_PokemonCenter_2F",
-        "EverGrandeCity_PokemonLeague_2F"
-    ],
+    "gMapGroup_IndoorEverGrande": [],
     "gMapGroup_IndoorRoute104": [
         "Route104_MrBrineysHouse",
         "Route104_PrettyPetalFlowerShop"
@@ -418,7 +401,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "EverGrandeCity",
         "Route101",
         "Route102",
         "Route103",
