@@ -282,13 +282,13 @@ static void SwapRentalMons(void)
 {
     DoBattleFactorySwapScreen();
 }
-
-bool8 InSlateportBattleTent(void)
+/*
+bool8 InSlateportBattleTent(void) // VERIFICA SI ESTÁS EN BATALLA DE TALENTOS 
 {
     return gMapHeader.regionMapSectionId == MAPSEC_SLATEPORT_CITY
            && (gMapHeader.mapLayoutId == LAYOUT_BATTLE_TENT_CORRIDOR || gMapHeader.mapLayoutId == LAYOUT_BATTLE_TENT_BATTLE_ROOM);
 }
-
+*/
 static void GenerateInitialRentalMons(void)
 {
     s32 i, j;
@@ -298,6 +298,7 @@ static void GenerateInitialRentalMons(void)
     u16 species[PARTY_SIZE];
     u16 monIds[PARTY_SIZE];
     u16 heldItems[PARTY_SIZE];
+    
 
     firstMonId = 0;
     gFacilityTrainers = gSlateportBattleTentTrainers;
