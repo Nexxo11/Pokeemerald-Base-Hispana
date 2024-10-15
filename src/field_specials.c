@@ -1768,6 +1768,7 @@ static const u16 sElevatorWindowTiles_Descending[ELEVATOR_WINDOW_HEIGHT][ELEVATO
 void SetDeptStoreFloor(void)
 {
     u8 deptStoreFloor;
+    /*
     switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
     {
     case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_1F):
@@ -1792,6 +1793,9 @@ void SetDeptStoreFloor(void)
         deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
         break;
     }
+    */
+    deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
+
     VarSet(VAR_DEPT_STORE_FLOOR, deptStoreFloor);
 }
 
@@ -1799,6 +1803,7 @@ u16 GetDeptStoreDefaultFloorChoice(void)
 {
     sLilycoveDeptStore_DefaultFloorChoice = 0;
 
+    /*
     if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(LILYCOVE_CITY_DEPARTMENT_STORE_1F))
     {
         switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
@@ -1820,6 +1825,7 @@ u16 GetDeptStoreDefaultFloorChoice(void)
             break;
         }
     }
+    */
 
     return sLilycoveDeptStore_DefaultFloorChoice;
 }
@@ -2035,7 +2041,7 @@ bool8 UsedPokemonCenterWarp(void)
         //MAP_MAUVILLE_CITY_POKEMON_CENTER_1F,
         //MAP_RUSTBORO_CITY_POKEMON_CENTER_1F,
         //MAP_FORTREE_CITY_POKEMON_CENTER_1F,
-        MAP_LILYCOVE_CITY_POKEMON_CENTER_1F,
+        //MAP_LILYCOVE_CITY_POKEMON_CENTER_1F,
         MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F,
         MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F,
         MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F,
@@ -3823,7 +3829,7 @@ bool8 InPokemonCenter(void)
         //MAP_MAUVILLE_CITY_POKEMON_CENTER_1F,
         //MAP_RUSTBORO_CITY_POKEMON_CENTER_1F,
         //MAP_FORTREE_CITY_POKEMON_CENTER_1F,
-        MAP_LILYCOVE_CITY_POKEMON_CENTER_1F,
+        //MAP_LILYCOVE_CITY_POKEMON_CENTER_1F,
         MAP_MOSSDEEP_CITY_POKEMON_CENTER_1F,
         MAP_SOOTOPOLIS_CITY_POKEMON_CENTER_1F,
         MAP_EVER_GRANDE_CITY_POKEMON_CENTER_1F,

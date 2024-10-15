@@ -211,7 +211,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         {
             MATCH_ON_MB(MB_SAND, MB_FOOTPRINTS),
         },
-    },
+    },/*
     [COND_MSG_ELEVATOR] =
     {
         .text = (u8*)sElevatorTexts,
@@ -221,7 +221,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         {
             MATCH_MAP(LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR),
         },
-    },
+    },*/
     [COND_MSG_ICE_ROOM] =
     {
         .text = (u8*)sColdTexts,

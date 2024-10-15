@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "LilycoveCity",
         "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
@@ -93,30 +92,7 @@
     "gMapGroup_IndoorMauville": [],
     "gMapGroup_IndoorRustboro": [],
     "gMapGroup_IndoorFortree": [],
-    "gMapGroup_IndoorLilycove": [
-        "LilycoveCity_CoveLilyMotel_1F",
-        "LilycoveCity_CoveLilyMotel_2F",
-        "LilycoveCity_LilycoveMuseum_1F",
-        "LilycoveCity_LilycoveMuseum_2F",
-        "LilycoveCity_ContestLobby",
-        "LilycoveCity_ContestHall",
-        "LilycoveCity_PokemonCenter_1F",
-        "LilycoveCity_PokemonCenter_2F",
-        "LilycoveCity_PokemonTrainerFanClub",
-        "LilycoveCity_Harbor",
-        "LilycoveCity_MoveDeletersHouse",
-        "LilycoveCity_House1",
-        "LilycoveCity_House2",
-        "LilycoveCity_House3",
-        "LilycoveCity_House4",
-        "LilycoveCity_DepartmentStore_1F",
-        "LilycoveCity_DepartmentStore_2F",
-        "LilycoveCity_DepartmentStore_3F",
-        "LilycoveCity_DepartmentStore_4F",
-        "LilycoveCity_DepartmentStore_5F",
-        "LilycoveCity_DepartmentStoreRooftop",
-        "LilycoveCity_DepartmentStoreElevator"
-    ],
+    "gMapGroup_IndoorLilycove": [],
     "gMapGroup_IndoorMossdeep": [
         "MossdeepCity_Gym",
         "MossdeepCity_House1",
@@ -474,7 +450,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "LilycoveCity",
         "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",

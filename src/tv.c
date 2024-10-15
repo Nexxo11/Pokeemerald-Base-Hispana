@@ -825,13 +825,14 @@ u8 FindAnyTVShowOnTheAir(void)
 void UpdateTVScreensOnMap(int width, int height)
 {
     FlagSet(FLAG_SYS_TV_WATCH);
-    if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_COVE_LILY_MOTEL_1F)
-     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_COVE_LILY_MOTEL_1F))
-    {
-        // NPC in Lilycove Hotel is always watching TV
-        SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
-    }
-    else if (FlagGet(FLAG_SYS_TV_START) && (FindAnyTVShowOnTheAir() != 0xFF || FindAnyPokeNewsOnTheAir() != 0xFF || IsGabbyAndTyShowOnTheAir()))
+    // if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_COVE_LILY_MOTEL_1F)
+    //  && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_COVE_LILY_MOTEL_1F))
+    // {
+    //     // NPC in Lilycove Hotel is always watching TV
+    //     SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
+    // }
+    // else 
+    if (FlagGet(FLAG_SYS_TV_START) && (FindAnyTVShowOnTheAir() != 0xFF || FindAnyPokeNewsOnTheAir() != 0xFF || IsGabbyAndTyShowOnTheAir()))
     {
         FlagClear(FLAG_SYS_TV_WATCH);
         SetTVMetatilesOnMap(width, height, METATILE_Building_TV_On);
@@ -2635,13 +2636,14 @@ bool8 IsPokeNewsActive(u8 newsKind)
 // For any other type of PokeNews this is always TRUE.
 static bool8 ShouldApplyPokeNewsEffect(u8 newsKind)
 {
+    /*
     if (newsKind == POKENEWS_LILYCOVE)
     {
         return (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP)
              && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP));
     }
     return TRUE;
-    /*
+    
     switch (newsKind)
     {
     case POKENEWS_SLATEPORT:
@@ -2658,6 +2660,7 @@ static bool8 ShouldApplyPokeNewsEffect(u8 newsKind)
     }
     return TRUE;
     */
+   return TRUE;
 }
 
 static bool8 IsAddingPokeNewsDisallowed(u8 newsKind)
