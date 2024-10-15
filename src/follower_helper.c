@@ -140,6 +140,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_MUSIC(MUS_VICTORY_ROAD)
         },
     },
+    /*
     [COND_MSG_BIKE_SHOP] =
     {
         .text = sCondMsg12,
@@ -149,6 +150,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_MAP(MAUVILLE_CITY_BIKE_SHOP)
         },
     },
+    */
     [COND_MSG_MACHINES] =
     {
         .text = (u8*)sMachineTexts,

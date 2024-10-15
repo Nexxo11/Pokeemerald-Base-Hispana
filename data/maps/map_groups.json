@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "MauvilleCity",
         "RustboroCity",
         "FortreeCity",
         "LilycoveCity",
@@ -93,16 +92,7 @@
     "gMapGroup_IndoorPacifidlog": [],
     "gMapGroup_IndoorPetalburg": [],
     "gMapGroup_IndoorSlateport": [],
-    "gMapGroup_IndoorMauville": [
-        "MauvilleCity_Gym",
-        "MauvilleCity_BikeShop",
-        "MauvilleCity_House1",
-        "MauvilleCity_GameCorner",
-        "MauvilleCity_House2",
-        "MauvilleCity_PokemonCenter_1F",
-        "MauvilleCity_PokemonCenter_2F",
-        "MauvilleCity_Mart"
-    ],
+    "gMapGroup_IndoorMauville": [],
     "gMapGroup_IndoorRustboro": [
         "RustboroCity_DevonCorp_1F",
         "RustboroCity_DevonCorp_2F",
@@ -515,7 +505,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "MauvilleCity",
         "RustboroCity",
         "FortreeCity",
         "LilycoveCity",
