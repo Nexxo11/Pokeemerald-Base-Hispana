@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "SlateportCity",
         "MauvilleCity",
         "RustboroCity",
         "FortreeCity",
@@ -93,22 +92,7 @@
     "gMapGroup_IndoorVerdanturf": [],
     "gMapGroup_IndoorPacifidlog": [],
     "gMapGroup_IndoorPetalburg": [],
-    "gMapGroup_IndoorSlateport": [
-        "SlateportCity_SternsShipyard_1F",
-        "SlateportCity_SternsShipyard_2F",
-        "SlateportCity_BattleTentLobby",
-        "SlateportCity_BattleTentCorridor",
-        "SlateportCity_BattleTentBattleRoom",
-        "SlateportCity_NameRatersHouse",
-        "SlateportCity_PokemonFanClub",
-        "SlateportCity_OceanicMuseum_1F",
-        "SlateportCity_OceanicMuseum_2F",
-        "SlateportCity_Harbor",
-        "SlateportCity_House",
-        "SlateportCity_PokemonCenter_1F",
-        "SlateportCity_PokemonCenter_2F",
-        "SlateportCity_Mart"
-    ],
+    "gMapGroup_IndoorSlateport": [],
     "gMapGroup_IndoorMauville": [
         "MauvilleCity_Gym",
         "MauvilleCity_BikeShop",
@@ -531,7 +515,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "SlateportCity",
         "MauvilleCity",
         "RustboroCity",
         "FortreeCity",

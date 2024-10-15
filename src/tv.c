@@ -2635,6 +2635,13 @@ bool8 IsPokeNewsActive(u8 newsKind)
 // For any other type of PokeNews this is always TRUE.
 static bool8 ShouldApplyPokeNewsEffect(u8 newsKind)
 {
+    if (newsKind == POKENEWS_LILYCOVE)
+    {
+        return (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP)
+             && gSaveBlock1Ptr->location.mapNum == MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP));
+    }
+    return TRUE;
+    /*
     switch (newsKind)
     {
     case POKENEWS_SLATEPORT:
@@ -2650,6 +2657,7 @@ static bool8 ShouldApplyPokeNewsEffect(u8 newsKind)
         return FALSE;
     }
     return TRUE;
+    */
 }
 
 static bool8 IsAddingPokeNewsDisallowed(u8 newsKind)

@@ -158,8 +158,8 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         .conditions =
         {
             MATCH_MAP(NEW_MAUVILLE_INSIDE),
-            MATCH_MAP(SLATEPORT_CITY_STERNS_SHIPYARD_1F),
-            MATCH_MAP(SLATEPORT_CITY_STERNS_SHIPYARD_2F),
+            //MATCH_MAP(SLATEPORT_CITY_STERNS_SHIPYARD_1F),
+            //MATCH_MAP(SLATEPORT_CITY_STERNS_SHIPYARD_2F),
         },
     },
     [COND_MSG_SAILING] =
