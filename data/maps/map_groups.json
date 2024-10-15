@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "PetalburgCity",
         "SlateportCity",
         "MauvilleCity",
         "RustboroCity",
@@ -93,15 +92,7 @@
     "gMapGroup_IndoorFallarbor": [],
     "gMapGroup_IndoorVerdanturf": [],
     "gMapGroup_IndoorPacifidlog": [],
-    "gMapGroup_IndoorPetalburg": [
-        "PetalburgCity_WallysHouse",
-        "PetalburgCity_Gym",
-        "PetalburgCity_House1",
-        "PetalburgCity_House2",
-        "PetalburgCity_PokemonCenter_1F",
-        "PetalburgCity_PokemonCenter_2F",
-        "PetalburgCity_Mart"
-    ],
+    "gMapGroup_IndoorPetalburg": [],
     "gMapGroup_IndoorSlateport": [
         "SlateportCity_SternsShipyard_1F",
         "SlateportCity_SternsShipyard_2F",
@@ -540,7 +531,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "PetalburgCity",
         "SlateportCity",
         "MauvilleCity",
         "RustboroCity",
