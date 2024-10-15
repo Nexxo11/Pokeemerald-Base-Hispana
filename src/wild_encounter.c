@@ -607,9 +607,10 @@ static bool8 AllowWildCheckOnNewMetatile(void)
     else
         return TRUE;
 }
-
+/*
 static bool8 AreLegendariesInSootopolisPreventingEncounters(void)
 {
+    
     if (gSaveBlock1Ptr->location.mapGroup != MAP_GROUP(SOOTOPOLIS_CITY)
      || gSaveBlock1Ptr->location.mapNum != MAP_NUM(SOOTOPOLIS_CITY))
     {
@@ -617,7 +618,9 @@ static bool8 AreLegendariesInSootopolisPreventingEncounters(void)
     }
 
     return FlagGet(FLAG_LEGENDARIES_IN_SOOTOPOLIS);
+    
 }
+*/
 
 bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
 {
@@ -711,9 +714,11 @@ bool8 StandardWildEncounter(u16 curMetatileBehavior, u16 prevMetatileBehavior)
         else if (MetatileBehavior_IsWaterWildEncounter(curMetatileBehavior) == TRUE
                  || (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING) && MetatileBehavior_IsBridgeOverWater(curMetatileBehavior) == TRUE))
         {
+            /*
             if (AreLegendariesInSootopolisPreventingEncounters() == TRUE)
                 return FALSE;
-            else if (gWildMonHeaders[headerId].waterMonsInfo == NULL)
+            else */
+            if (gWildMonHeaders[headerId].waterMonsInfo == NULL)
                 return FALSE;
             else if (prevMetatileBehavior != curMetatileBehavior && !AllowWildCheckOnNewMetatile())
                 return FALSE;
@@ -838,8 +843,10 @@ bool8 SweetScentWildEncounter(void)
         }
         else if (MetatileBehavior_IsWaterWildEncounter(MapGridGetMetatileBehaviorAt(x, y)) == TRUE)
         {
+            /*
             if (AreLegendariesInSootopolisPreventingEncounters() == TRUE)
                 return FALSE;
+            */
             if (gWildMonHeaders[headerId].waterMonsInfo == NULL)
                 return FALSE;
 

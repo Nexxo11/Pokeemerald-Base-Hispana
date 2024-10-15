@@ -1053,7 +1053,7 @@ static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
         {
         //case MAP_NUM(LILYCOVE_CITY):
         //case MAP_NUM(MOSSDEEP_CITY):
-        case MAP_NUM(SOOTOPOLIS_CITY):
+        //case MAP_NUM(SOOTOPOLIS_CITY):
         case MAP_NUM(EVER_GRANDE_CITY):
         case MAP_NUM(ROUTE124):
         case MAP_NUM(ROUTE125):
@@ -1075,18 +1075,21 @@ static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
     }
     return FALSE;
 }
-
+/*
 static bool16 NoMusicInSotopolisWithLegendaries(struct WarpData *warp)
 {
     if (VarGet(VAR_SKY_PILLAR_STATE) != 1)
         return FALSE;
+        
     else if (warp->mapGroup != MAP_GROUP(SOOTOPOLIS_CITY))
         return FALSE;
     else if (warp->mapNum == MAP_NUM(SOOTOPOLIS_CITY))
         return TRUE;
     else
         return FALSE;
+        
 }
+*/
 
 static bool16 IsInfiltratedWeatherInstitute(struct WarpData *warp)
 {
@@ -1117,9 +1120,11 @@ static bool16 IsInflitratedSpaceCenter(struct WarpData *warp)
 
 u16 GetLocationMusic(struct WarpData *warp)
 {
+    /*
     if (NoMusicInSotopolisWithLegendaries(warp) == TRUE)
         return MUS_NONE;
-    else if (ShouldLegendaryMusicPlayAtLocation(warp) == TRUE)
+    else */
+    if (ShouldLegendaryMusicPlayAtLocation(warp) == TRUE)
         return MUS_ABNORMAL_WEATHER;
     else if (IsInflitratedSpaceCenter(warp) == TRUE)
         return MUS_ENCOUNTER_MAGMA;
@@ -1251,8 +1256,10 @@ u8 GetMapMusicFadeoutSpeed(void)
 
 void TryFadeOutOldMapMusic(void)
 {
+    /*
     u16 currentMusic = GetCurrentMapMusic();
     u16 warpMusic = GetWarpDestinationMusic();
+    
     if (FlagGet(FLAG_DONT_TRANSITION_MUSIC) != TRUE && warpMusic != GetCurrentMapMusic())
     {
         if (currentMusic == MUS_SURF
@@ -1266,6 +1273,7 @@ void TryFadeOutOldMapMusic(void)
             return;
         FadeOutMapMusic(GetMapMusicFadeoutSpeed());
     }
+    */
 }
 
 bool8 BGMusicStopped(void)
