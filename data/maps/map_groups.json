@@ -44,7 +44,6 @@
         "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
-        "VerdanturfTown",
         "PacifidlogTown",
         "Route101",
         "Route102",
@@ -93,17 +92,7 @@
     "gMapGroup_IndoorDewford": [],
     "gMapGroup_IndoorLavaridge": [],
     "gMapGroup_IndoorFallarbor": [],
-    "gMapGroup_IndoorVerdanturf": [
-        "VerdanturfTown_BattleTentLobby",
-        "VerdanturfTown_BattleTentCorridor",
-        "VerdanturfTown_BattleTentBattleRoom",
-        "VerdanturfTown_Mart",
-        "VerdanturfTown_PokemonCenter_1F",
-        "VerdanturfTown_PokemonCenter_2F",
-        "VerdanturfTown_WandasHouse",
-        "VerdanturfTown_FriendshipRatersHouse",
-        "VerdanturfTown_House"
-    ],
+    "gMapGroup_IndoorVerdanturf": [],
     "gMapGroup_IndoorPacifidlog": [
         "PacifidlogTown_PokemonCenter_1F",
         "PacifidlogTown_PokemonCenter_2F",
@@ -560,7 +549,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "VerdanturfTown",
         "PacifidlogTown",
         "PetalburgCity",
         "SlateportCity",
