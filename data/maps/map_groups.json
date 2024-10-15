@@ -44,7 +44,6 @@
         "MossdeepCity",
         "SootopolisCity",
         "EverGrandeCity",
-        "LavaridgeTown",
         "FallarborTown",
         "VerdanturfTown",
         "PacifidlogTown",
@@ -93,15 +92,7 @@
     "gMapGroup_IndoorLittleroot": [],
     "gMapGroup_IndoorOldale": [],
     "gMapGroup_IndoorDewford": [],
-    "gMapGroup_IndoorLavaridge": [
-        "LavaridgeTown_HerbShop",
-        "LavaridgeTown_Gym_1F",
-        "LavaridgeTown_Gym_B1F",
-        "LavaridgeTown_House",
-        "LavaridgeTown_Mart",
-        "LavaridgeTown_PokemonCenter_1F",
-        "LavaridgeTown_PokemonCenter_2F"
-    ],
+    "gMapGroup_IndoorLavaridge": [],
     "gMapGroup_IndoorFallarbor": [
         "FallarborTown_Mart",
         "FallarborTown_BattleTentLobby",
@@ -579,7 +570,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "LavaridgeTown",
         "FallarborTown",
         "VerdanturfTown",
         "PacifidlogTown",

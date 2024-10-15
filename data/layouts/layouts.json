@@ -92,16 +92,6 @@
             "blockdata_filepath": "data/layouts/EverGrandeCity/map.bin"
         },
         {
-            "id": "LAYOUT_LAVARIDGE_TOWN",
-            "name": "LavaridgeTown_Layout",
-            "width": 20,
-            "height": 20,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lavaridge",
-            "border_filepath": "data/layouts/LavaridgeTown/border.bin",
-            "blockdata_filepath": "data/layouts/LavaridgeTown/map.bin"
-        },
-        {
             "id": "LAYOUT_FALLARBOR_TOWN",
             "name": "FallarborTown_Layout",
             "width": 20,
@@ -570,46 +560,6 @@
             "secondary_tileset": "gTileset_GenericBuilding",
             "border_filepath": "data/layouts/House4/border.bin",
             "blockdata_filepath": "data/layouts/House4/map.bin"
-        },
-        {
-            "id": "LAYOUT_LAVARIDGE_TOWN_HERB_SHOP",
-            "name": "LavaridgeTown_HerbShop_Layout",
-            "width": 11,
-            "height": 8,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_Shop",
-            "border_filepath": "data/layouts/LavaridgeTown_HerbShop/border.bin",
-            "blockdata_filepath": "data/layouts/LavaridgeTown_HerbShop/map.bin"
-        },
-        {
-            "id": "LAYOUT_LAVARIDGE_TOWN_GYM_1F",
-            "name": "LavaridgeTown_Gym_1F_Layout",
-            "width": 17,
-            "height": 19,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_LavaridgeGym",
-            "border_filepath": "data/layouts/LavaridgeTown_Gym_1F/border.bin",
-            "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_1F/map.bin"
-        },
-        {
-            "id": "LAYOUT_LAVARIDGE_TOWN_GYM_B1F",
-            "name": "LavaridgeTown_Gym_B1F_Layout",
-            "width": 17,
-            "height": 19,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_LavaridgeGym",
-            "border_filepath": "data/layouts/LavaridgeTown_Gym_B1F/border.bin",
-            "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_B1F/map.bin"
-        },
-        {
-            "id": "LAYOUT_LAVARIDGE_TOWN_POKEMON_CENTER_1F",
-            "name": "LavaridgeTown_PokemonCenter_1F_Layout",
-            "width": 14,
-            "height": 9,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_PokemonCenter",
-            "border_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/border.bin",
-            "blockdata_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/map.bin"
         },
         {
             "id": "LAYOUT_FALLARBOR_TOWN_LEFTOVER_RSCONTEST_LOBBY",
