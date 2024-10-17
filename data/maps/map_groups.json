@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route110",
         "Route111",
         "Route112",
         "Route113",
@@ -357,21 +356,7 @@
         "TrainerHill_Elevator"
     ],
     "gMapGroup_IndoorRoute109": [],
-    "gMapGroup_IndoorRoute110": [
-        "Route110_TrickHouseEntrance",
-        "Route110_TrickHouseEnd",
-        "Route110_TrickHouseCorridor",
-        "Route110_TrickHousePuzzle1",
-        "Route110_TrickHousePuzzle2",
-        "Route110_TrickHousePuzzle3",
-        "Route110_TrickHousePuzzle4",
-        "Route110_TrickHousePuzzle5",
-        "Route110_TrickHousePuzzle6",
-        "Route110_TrickHousePuzzle7",
-        "Route110_TrickHousePuzzle8",
-        "Route110_SeasideCyclingRoadNorthEntrance",
-        "Route110_SeasideCyclingRoadSouthEntrance"
-    ],
+    "gMapGroup_IndoorRoute110": [],
     "gMapGroup_IndoorRoute113": [
         "Route113_GlassWorkshop"
     ],
@@ -387,7 +372,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route110",
         "Route111",
         "Route112",
         "Route113",
