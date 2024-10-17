@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE129",
-            "name": "Route129_Layout",
-            "width": 80,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Mossdeep",
-            "border_filepath": "data/layouts/Route129/border.bin",
-            "blockdata_filepath": "data/layouts/Route129/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE130_MIRAGE_ISLAND",
             "name": "Route130_MirageIsland_Layout",
             "width": 80,
