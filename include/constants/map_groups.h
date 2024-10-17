@@ -6,27 +6,26 @@
 //
 
 // gMapGroup_TownsAndRoutes
-#define MAP_ROUTE121            (0 | (0 << 8))
-#define MAP_ROUTE122            (1 | (0 << 8))
-#define MAP_ROUTE123            (2 | (0 << 8))
-#define MAP_ROUTE124            (3 | (0 << 8))
-#define MAP_ROUTE125            (4 | (0 << 8))
-#define MAP_ROUTE126            (5 | (0 << 8))
-#define MAP_ROUTE127            (6 | (0 << 8))
-#define MAP_ROUTE128            (7 | (0 << 8))
-#define MAP_ROUTE129            (8 | (0 << 8))
-#define MAP_ROUTE130            (9 | (0 << 8))
-#define MAP_ROUTE131            (10 | (0 << 8))
-#define MAP_ROUTE132            (11 | (0 << 8))
-#define MAP_ROUTE133            (12 | (0 << 8))
-#define MAP_ROUTE134            (13 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE124 (14 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE126 (15 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE127 (16 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE128 (17 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE129 (18 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE105 (19 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE125 (20 | (0 << 8))
+#define MAP_ROUTE122            (0 | (0 << 8))
+#define MAP_ROUTE123            (1 | (0 << 8))
+#define MAP_ROUTE124            (2 | (0 << 8))
+#define MAP_ROUTE125            (3 | (0 << 8))
+#define MAP_ROUTE126            (4 | (0 << 8))
+#define MAP_ROUTE127            (5 | (0 << 8))
+#define MAP_ROUTE128            (6 | (0 << 8))
+#define MAP_ROUTE129            (7 | (0 << 8))
+#define MAP_ROUTE130            (8 | (0 << 8))
+#define MAP_ROUTE131            (9 | (0 << 8))
+#define MAP_ROUTE132            (10 | (0 << 8))
+#define MAP_ROUTE133            (11 | (0 << 8))
+#define MAP_ROUTE134            (12 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE124 (13 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE126 (14 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE127 (15 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE128 (16 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE129 (17 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE105 (18 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE125 (19 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 
@@ -74,7 +73,6 @@
 // gMapGroup_IndoorRoute117
 
 // gMapGroup_IndoorRoute121
-#define MAP_ROUTE121_SAFARI_ZONE_ENTRANCE (0 | (23 << 8))
 
 // gMapGroup_Dungeons
 #define MAP_METEOR_FALLS_1F_1R                    (0 | (24 << 8))

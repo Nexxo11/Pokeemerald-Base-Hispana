@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route121",
         "Route122",
         "Route123",
         "Route124",
@@ -81,9 +80,7 @@
     "gMapGroup_IndoorRoute114": [],
     "gMapGroup_IndoorRoute116": [],
     "gMapGroup_IndoorRoute117": [],
-    "gMapGroup_IndoorRoute121": [
-        "Route121_SafariZoneEntrance"
-    ],
+    "gMapGroup_IndoorRoute121": [],
     "gMapGroup_Dungeons": [
         "MeteorFalls_1F_1R",
         "MeteorFalls_1F_2R",
@@ -344,7 +341,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route121",
         "Route122",
         "Route123",
         "Route124",

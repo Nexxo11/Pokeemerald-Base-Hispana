@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE121",
-            "name": "Route121_Layout",
-            "width": 80,
-            "height": 20,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/Route121/border.bin",
-            "blockdata_filepath": "data/layouts/Route121/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE122",
             "name": "Route122_Layout",
             "width": 40,
@@ -230,16 +220,6 @@
             "secondary_tileset": "gTileset_Facility",
             "border_filepath": "data/layouts/CableCarStation/border.bin",
             "blockdata_filepath": "data/layouts/CableCarStation/map.bin"
-        },
-        {
-            "id": "LAYOUT_ROUTE121_SAFARI_ZONE_ENTRANCE",
-            "name": "Route121_SafariZoneEntrance_Layout",
-            "width": 18,
-            "height": 14,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_Shop",
-            "border_filepath": "data/layouts/Route121_SafariZoneEntrance/border.bin",
-            "blockdata_filepath": "data/layouts/Route121_SafariZoneEntrance/map.bin"
         },
         {
             "id": "LAYOUT_METEOR_FALLS_1F_1R",
