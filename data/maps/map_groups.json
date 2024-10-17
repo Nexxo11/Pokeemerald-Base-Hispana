@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route104",
         "Route105",
         "Route106",
         "Route107",
@@ -90,10 +89,7 @@
     "gMapGroup_IndoorMossdeep": [],
     "gMapGroup_IndoorSootopolis": [],
     "gMapGroup_IndoorEverGrande": [],
-    "gMapGroup_IndoorRoute104": [
-        "Route104_MrBrineysHouse",
-        "Route104_PrettyPetalFlowerShop"
-    ],
+    "gMapGroup_IndoorRoute104": [],
     "gMapGroup_IndoorRoute111": [
         "Route111_WinstrateFamilysHouse",
         "Route111_OldLadysRestStop"
@@ -398,7 +394,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route104",
         "Route105",
         "Route106",
         "Route107",

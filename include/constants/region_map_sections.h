@@ -19,8 +19,8 @@
 #define MAPSEC_EVER_GRANDE_CITY             0x0F //Eliminado
 #define MAPSEC_ROUTE_101                    0x10 //Eliminado
 #define MAPSEC_ROUTE_102                    0x11 //Eliminado
-#define MAPSEC_ROUTE_103                    0x12 //
-#define MAPSEC_ROUTE_104                    0x13
+#define MAPSEC_ROUTE_103                    0x12 //Eliminado
+#define MAPSEC_ROUTE_104                    0x13 //
 #define MAPSEC_ROUTE_105                    0x14
 #define MAPSEC_ROUTE_106                    0x15
 #define MAPSEC_ROUTE_107                    0x16

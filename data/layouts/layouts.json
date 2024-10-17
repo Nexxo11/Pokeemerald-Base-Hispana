@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE104",
-            "name": "Route104_Layout",
-            "width": 40,
-            "height": 80,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Rustboro",
-            "border_filepath": "data/layouts/Route104/border.bin",
-            "blockdata_filepath": "data/layouts/Route104/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE105",
             "name": "Route105_Layout",
             "width": 40,
@@ -390,26 +380,6 @@
             "secondary_tileset": "gTileset_GenericBuilding",
             "border_filepath": "data/layouts/HouseWithBed/border.bin",
             "blockdata_filepath": "data/layouts/HouseWithBed/map.bin"
-        },
-        {
-            "id": "LAYOUT_ROUTE104_MR_BRINEYS_HOUSE",
-            "name": "Route104_MrBrineysHouse_Layout",
-            "width": 12,
-            "height": 9,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_GenericBuilding",
-            "border_filepath": "data/layouts/Route104_MrBrineysHouse/border.bin",
-            "blockdata_filepath": "data/layouts/Route104_MrBrineysHouse/map.bin"
-        },
-        {
-            "id": "LAYOUT_ROUTE104_PRETTY_PETAL_FLOWER_SHOP",
-            "name": "Route104_PrettyPetalFlowerShop_Layout",
-            "width": 15,
-            "height": 9,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
-            "border_filepath": "data/layouts/Route104_PrettyPetalFlowerShop/border.bin",
-            "blockdata_filepath": "data/layouts/Route104_PrettyPetalFlowerShop/map.bin"
         },
         {
             "id": "LAYOUT_CABLE_CAR_STATION",
