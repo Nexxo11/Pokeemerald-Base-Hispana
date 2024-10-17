@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route128",
         "Route129",
         "Route130",
         "Route131",
@@ -331,7 +330,6 @@
     "gMapGroup_IndoorRoute119": [],
     "gMapGroup_IndoorRoute124": [],
     "connections_include_order": [
-        "Route128",
         "Route129",
         "Route130",
         "Route131",

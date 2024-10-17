@@ -1043,22 +1043,35 @@ void SetObjectEventLoadFlag(u8 flag)
     sObjectEventLoadFlag = flag;
 }
 
+/**
+ * ShouldLegendaryMusicPlayAtLocation - Determina si la música legendaria debe sonar en una ubicación dada.
+ * 
+ * @param warp: Un puntero a una estructura WarpData que contiene el grupo de mapa y el número de mapa.
+ * 
+ * @return TRUE si la música legendaria debe sonar en la ubicación especificada, FALSE en caso contrario.
+ * 
+ * Esta función verifica si la música legendaria debe sonar en función de la ubicación actual
+ * especificada por el parámetro warp. La función está actualmente comentada y siempre 
+ * devuelve FALSE. La lógica original verifica grupos de mapas y números de mapas específicos, 
+ * y también considera el estado de Ciudad Sootopolis.
+ */
 static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
 {
+    /*
     if (!FlagGet(FLAG_SYS_WEATHER_CTRL))
         return FALSE;
     if (warp->mapGroup == 0)
     {
         switch (warp->mapNum)
         {
-        //case MAP_NUM(LILYCOVE_CITY):
-        //case MAP_NUM(MOSSDEEP_CITY):
-        //case MAP_NUM(SOOTOPOLIS_CITY):
-        //case MAP_NUM(EVER_GRANDE_CITY):
-        //case MAP_NUM(ROUTE124):
-        //case MAP_NUM(ROUTE125):
-        //case MAP_NUM(ROUTE126):
-        //case MAP_NUM(ROUTE127):
+        case MAP_NUM(LILYCOVE_CITY):
+        case MAP_NUM(MOSSDEEP_CITY):
+        case MAP_NUM(SOOTOPOLIS_CITY):
+        case MAP_NUM(EVER_GRANDE_CITY):
+        case MAP_NUM(ROUTE124):
+        case MAP_NUM(ROUTE125):
+        case MAP_NUM(ROUTE126):
+        case MAP_NUM(ROUTE127):
         case MAP_NUM(ROUTE128):
             return TRUE;
         default:
@@ -1072,7 +1085,7 @@ static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
                 return TRUE;
             }
         }
-    }
+    }*/
     return FALSE;
 }
 /*
