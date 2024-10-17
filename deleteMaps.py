@@ -1,3 +1,16 @@
+import os
+import ast
+import shutil
+import json
+
+def readJson(pathJson):
+    with open(pathJson, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    return data
+
+def writeJson(pathJson, data):
+    try:
+        with open(pathJson, 'w') as f:
             json.dump(data, f, indent=4)
     except Exception as e:
         print(f"Error al escribir el archivo {pathJson}: {e}")

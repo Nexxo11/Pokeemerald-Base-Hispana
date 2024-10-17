@@ -112,7 +112,6 @@ gStdScripts_End::
 	.include "data/maps/MeteorFalls_B1F_2R/scripts.inc"
 	.include "data/maps/RusturfTunnel/scripts.inc"
 	.include "data/maps/DesertRuins/scripts.inc"
-	.include "data/maps/PetalburgWoods/scripts.inc"
 	.include "data/maps/JaggedPass/scripts.inc"
 	.include "data/maps/FieryPath/scripts.inc"
 	.include "data/maps/MtPyre_1F/scripts.inc"
