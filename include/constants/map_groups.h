@@ -6,32 +6,31 @@
 //
 
 // gMapGroup_TownsAndRoutes
-#define MAP_ROUTE116            (0 | (0 << 8))
-#define MAP_ROUTE117            (1 | (0 << 8))
-#define MAP_ROUTE118            (2 | (0 << 8))
-#define MAP_ROUTE119            (3 | (0 << 8))
-#define MAP_ROUTE120            (4 | (0 << 8))
-#define MAP_ROUTE121            (5 | (0 << 8))
-#define MAP_ROUTE122            (6 | (0 << 8))
-#define MAP_ROUTE123            (7 | (0 << 8))
-#define MAP_ROUTE124            (8 | (0 << 8))
-#define MAP_ROUTE125            (9 | (0 << 8))
-#define MAP_ROUTE126            (10 | (0 << 8))
-#define MAP_ROUTE127            (11 | (0 << 8))
-#define MAP_ROUTE128            (12 | (0 << 8))
-#define MAP_ROUTE129            (13 | (0 << 8))
-#define MAP_ROUTE130            (14 | (0 << 8))
-#define MAP_ROUTE131            (15 | (0 << 8))
-#define MAP_ROUTE132            (16 | (0 << 8))
-#define MAP_ROUTE133            (17 | (0 << 8))
-#define MAP_ROUTE134            (18 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE124 (19 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE126 (20 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE127 (21 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE128 (22 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE129 (23 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE105 (24 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE125 (25 | (0 << 8))
+#define MAP_ROUTE117            (0 | (0 << 8))
+#define MAP_ROUTE118            (1 | (0 << 8))
+#define MAP_ROUTE119            (2 | (0 << 8))
+#define MAP_ROUTE120            (3 | (0 << 8))
+#define MAP_ROUTE121            (4 | (0 << 8))
+#define MAP_ROUTE122            (5 | (0 << 8))
+#define MAP_ROUTE123            (6 | (0 << 8))
+#define MAP_ROUTE124            (7 | (0 << 8))
+#define MAP_ROUTE125            (8 | (0 << 8))
+#define MAP_ROUTE126            (9 | (0 << 8))
+#define MAP_ROUTE127            (10 | (0 << 8))
+#define MAP_ROUTE128            (11 | (0 << 8))
+#define MAP_ROUTE129            (12 | (0 << 8))
+#define MAP_ROUTE130            (13 | (0 << 8))
+#define MAP_ROUTE131            (14 | (0 << 8))
+#define MAP_ROUTE132            (15 | (0 << 8))
+#define MAP_ROUTE133            (16 | (0 << 8))
+#define MAP_ROUTE134            (17 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE124 (18 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE126 (19 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE127 (20 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE128 (21 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE129 (22 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE105 (23 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE125 (24 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 
@@ -75,7 +74,6 @@
 // gMapGroup_IndoorRoute114
 
 // gMapGroup_IndoorRoute116
-#define MAP_ROUTE116_TUNNELERS_REST_HOUSE (0 | (21 << 8))
 
 // gMapGroup_IndoorRoute117
 #define MAP_ROUTE117_POKEMON_DAY_CARE (0 | (22 << 8))

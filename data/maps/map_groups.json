@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route116",
         "Route117",
         "Route118",
         "Route119",
@@ -84,9 +83,7 @@
         "MtChimney_CableCarStation"
     ],
     "gMapGroup_IndoorRoute114": [],
-    "gMapGroup_IndoorRoute116": [
-        "Route116_TunnelersRestHouse"
-    ],
+    "gMapGroup_IndoorRoute116": [],
     "gMapGroup_IndoorRoute117": [
         "Route117_PokemonDayCare"
     ],
@@ -357,7 +354,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route116",
         "Route117",
         "Route118",
         "Route119",
