@@ -62,16 +62,6 @@
             "blockdata_filepath": "data/layouts/HouseWithBed/map.bin"
         },
         {
-            "id": "LAYOUT_CABLE_CAR_STATION",
-            "name": "CableCarStation_Layout",
-            "width": 13,
-            "height": 12,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Facility",
-            "border_filepath": "data/layouts/CableCarStation/border.bin",
-            "blockdata_filepath": "data/layouts/CableCarStation/map.bin"
-        },
-        {
             "id": "LAYOUT_METEOR_FALLS_1F_1R",
             "name": "MeteorFalls_1F_1R_Layout",
             "width": 30,
@@ -140,16 +130,6 @@
             "secondary_tileset": "gTileset_Rustboro",
             "border_filepath": "data/layouts/PetalburgWoods/border.bin",
             "blockdata_filepath": "data/layouts/PetalburgWoods/map.bin"
-        },
-        {
-            "id": "LAYOUT_MT_CHIMNEY",
-            "name": "MtChimney_Layout",
-            "width": 40,
-            "height": 47,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lavaridge",
-            "border_filepath": "data/layouts/MtChimney/border.bin",
-            "blockdata_filepath": "data/layouts/MtChimney/map.bin"
         },
         {
             "id": "LAYOUT_MT_PYRE_1F",

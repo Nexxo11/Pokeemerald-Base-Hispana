@@ -57,9 +57,7 @@
     "gMapGroup_IndoorEverGrande": [],
     "gMapGroup_IndoorRoute104": [],
     "gMapGroup_IndoorRoute111": [],
-    "gMapGroup_IndoorRoute112": [
-        "MtChimney_CableCarStation"
-    ],
+    "gMapGroup_IndoorRoute112": [],
     "gMapGroup_IndoorRoute114": [],
     "gMapGroup_IndoorRoute116": [],
     "gMapGroup_IndoorRoute117": [],
@@ -72,7 +70,6 @@
         "RusturfTunnel",
         "DesertRuins",
         "PetalburgWoods",
-        "MtChimney",
         "JaggedPass",
         "FieryPath",
         "MtPyre_1F",
