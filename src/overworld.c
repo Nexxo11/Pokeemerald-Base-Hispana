@@ -1372,21 +1372,32 @@ void UpdateAmbientCry(s16 *state, u16 *delayCounter)
     }
 }
 
+/**
+ * @brief Elige la especie para los gritos ambientales en el overworld.
+ *
+ * Esta función determina qué especie de Pokémon debe reproducir su grito como sonido ambiental
+ * en el overworld. Establece la variable global `sAmbientCrySpecies` al ID de la especie del Pokémon elegido.
+ * Además, establece la variable global `sIsAmbientCryWaterMon` para indicar si el Pokémon elegido es de tipo agua.
+ *
+ * Nota: El código para manejar una ruta específica (ROUTE130) y la presencia de la Isla Espejismo
+ * está actualmente comentado. Si se descomenta, restringiría los gritos ambientales a Pokémon de tipo agua
+ * en esa ruta cuando la Isla Espejismo no está presente.
+ */
 static void ChooseAmbientCrySpecies(void)
 {
-    if ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE130)
-     && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE130))
-     && !IsMirageIslandPresent())
-    {
-        // Only play water Pokémon cries on this route
-        // when Mirage Island is not present
-        sIsAmbientCryWaterMon = TRUE;
-        sAmbientCrySpecies = GetLocalWaterMon();
-    }
-    else
-    {
+    // if ((gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE130)
+    //  && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE130))
+    //  && !IsMirageIslandPresent())
+    // {
+    //     // Solo reproducir gritos de Pokémon de agua en esta ruta
+    //     // cuando la Isla Espejismo no está presente
+    //     sIsAmbientCryWaterMon = TRUE;
+    //     sAmbientCrySpecies = GetLocalWaterMon();
+    // }
+    // else
+    // {
         sAmbientCrySpecies = GetLocalWildMon(&sIsAmbientCryWaterMon);
-    }
+    // }
 }
 
 u8 GetMapTypeByGroupAndId(s8 mapGroup, s8 mapNum)
