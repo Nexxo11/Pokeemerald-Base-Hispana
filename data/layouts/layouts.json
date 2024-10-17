@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE111",
-            "name": "Route111_Layout",
-            "width": 40,
-            "height": 140,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Mauville",
-            "border_filepath": "data/layouts/Route111/border.bin",
-            "blockdata_filepath": "data/layouts/Route111/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE112",
             "name": "Route112_Layout",
             "width": 40,
