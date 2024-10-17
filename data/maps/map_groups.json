@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route117",
         "Route118",
         "Route119",
         "Route120",
@@ -84,9 +83,7 @@
     ],
     "gMapGroup_IndoorRoute114": [],
     "gMapGroup_IndoorRoute116": [],
-    "gMapGroup_IndoorRoute117": [
-        "Route117_PokemonDayCare"
-    ],
+    "gMapGroup_IndoorRoute117": [],
     "gMapGroup_IndoorRoute121": [
         "Route121_SafariZoneEntrance"
     ],
@@ -354,7 +351,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route117",
         "Route118",
         "Route119",
         "Route120",

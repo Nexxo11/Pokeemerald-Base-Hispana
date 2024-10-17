@@ -103,7 +103,6 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
-	.include "data/maps/Route117/scripts.inc"
 	.include "data/maps/Route118/scripts.inc"
 	.include "data/maps/Route119/scripts.inc"
 	.include "data/maps/Route120/scripts.inc"
@@ -129,7 +128,6 @@ gStdScripts_End::
 	.include "data/maps/Underwater_Route105/scripts.inc"
 	.include "data/maps/Underwater_Route125/scripts.inc"
 	.include "data/maps/MtChimney_CableCarStation/scripts.inc"
-	.include "data/maps/Route117_PokemonDayCare/scripts.inc"
 	.include "data/maps/Route121_SafariZoneEntrance/scripts.inc"
 	.include "data/maps/MeteorFalls_1F_1R/scripts.inc"
 	.include "data/maps/MeteorFalls_1F_2R/scripts.inc"

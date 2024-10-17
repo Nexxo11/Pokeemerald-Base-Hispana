@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE117",
-            "name": "Route117_Layout",
-            "width": 60,
-            "height": 20,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Mauville",
-            "border_filepath": "data/layouts/Route117/border.bin",
-            "blockdata_filepath": "data/layouts/Route117/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE118",
             "name": "Route118_Layout",
             "width": 80,
@@ -270,16 +260,6 @@
             "secondary_tileset": "gTileset_Facility",
             "border_filepath": "data/layouts/CableCarStation/border.bin",
             "blockdata_filepath": "data/layouts/CableCarStation/map.bin"
-        },
-        {
-            "id": "LAYOUT_ROUTE117_POKEMON_DAY_CARE",
-            "name": "Route117_PokemonDayCare_Layout",
-            "width": 12,
-            "height": 9,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_PokemonDayCare",
-            "border_filepath": "data/layouts/Route117_PokemonDayCare/border.bin",
-            "blockdata_filepath": "data/layouts/Route117_PokemonDayCare/map.bin"
         },
         {
             "id": "LAYOUT_ROUTE121_SAFARI_ZONE_ENTRANCE",

@@ -70,6 +70,8 @@ static const u8 sCondMsg42[] = _("{STR_VAR_1}'s burn looks painful!");
 // See the struct definition in follower_helper.h for more info
 const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT] =
 {
+    
+    /*
     [COND_MSG_CELEBI] =
     {
         .text = (u8*)sCelebiTexts,
@@ -101,7 +103,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_MAP(ROUTE112),
         },
     },
-    */
     [COND_MSG_DAY_CARE] =
     {
         .text = sCondMsg08,
@@ -142,7 +143,6 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_MAP(MAUVILLE_CITY_BIKE_SHOP)
         },
     },
-    */
     [COND_MSG_MACHINES] =
     {
         .text = (u8*)sMachineTexts,
@@ -203,7 +203,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         {
             MATCH_ON_MB(MB_SAND, MB_FOOTPRINTS),
         },
-    },/*
+    },
     [COND_MSG_ELEVATOR] =
     {
         .text = (u8*)sElevatorTexts,
@@ -213,7 +213,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
         {
             MATCH_MAP(LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR),
         },
-    },*/
+    },
     [COND_MSG_ICE_ROOM] =
     {
         .text = (u8*)sColdTexts,
@@ -344,6 +344,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_STATUS(STATUS1_BURN),
         },
     },
+    */
 };
 
 // Pool of "unconditional" follower messages
