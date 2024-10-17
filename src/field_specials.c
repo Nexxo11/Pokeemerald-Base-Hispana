@@ -3408,7 +3408,10 @@ void CreateAbnormalWeatherEvent(void)
 // returns TRUE if the weather is for Kyogre, and FALSE if it's for Groudon.
 bool32 GetAbnormalWeatherMapNameAndType(void)
 {
+    
     static const u8 sAbnormalWeatherMapNumbers[] = {
+        0
+        /*
         MAP_NUM(ROUTE114),
         MAP_NUM(ROUTE114),
         MAP_NUM(ROUTE115),
@@ -3417,14 +3420,15 @@ bool32 GetAbnormalWeatherMapNameAndType(void)
         MAP_NUM(ROUTE116),
         MAP_NUM(ROUTE118),
         MAP_NUM(ROUTE118),
-        //MAP_NUM(ROUTE105),
-        //MAP_NUM(ROUTE105),
+        MAP_NUM(ROUTE105),
+        MAP_NUM(ROUTE105),
         MAP_NUM(ROUTE125),
         MAP_NUM(ROUTE125),
         MAP_NUM(ROUTE127),
         MAP_NUM(ROUTE127),
         MAP_NUM(ROUTE129),
         MAP_NUM(ROUTE129)
+        */
     };
 
     u16 abnormalWeather = VarGet(VAR_ABNORMAL_WEATHER_LOCATION);
@@ -3442,6 +3446,9 @@ bool8 AbnormalWeatherHasExpired(void)
     // Duplicate array.
     static const u8 sAbnormalWeatherMapNumbers[] =
     {
+        0
+        /*
+        
         MAP_NUM(ROUTE114),
         MAP_NUM(ROUTE114),
         MAP_NUM(ROUTE115),
@@ -3450,14 +3457,16 @@ bool8 AbnormalWeatherHasExpired(void)
         MAP_NUM(ROUTE116),
         MAP_NUM(ROUTE118),
         MAP_NUM(ROUTE118),
-        //MAP_NUM(ROUTE105),
-        //MAP_NUM(ROUTE105),
+        MAP_NUM(ROUTE105),
+        MAP_NUM(ROUTE105),
         MAP_NUM(ROUTE125),
         MAP_NUM(ROUTE125),
         MAP_NUM(ROUTE127),
         MAP_NUM(ROUTE127),
         MAP_NUM(ROUTE129),
         MAP_NUM(ROUTE129)
+        */
+        
     };
 
     u16 steps = VarGet(VAR_ABNORMAL_WEATHER_STEP_COUNTER);

@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route114",
         "Route115",
         "Route116",
         "Route117",
@@ -85,11 +84,7 @@
     "gMapGroup_IndoorRoute112": [
         "MtChimney_CableCarStation"
     ],
-    "gMapGroup_IndoorRoute114": [
-        "Route114_FossilManiacsHouse",
-        "Route114_FossilManiacsTunnel",
-        "Route114_LanettesHouse"
-    ],
+    "gMapGroup_IndoorRoute114": [],
     "gMapGroup_IndoorRoute116": [
         "Route116_TunnelersRestHouse"
     ],
@@ -363,7 +358,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route114",
         "Route115",
         "Route116",
         "Route117",
