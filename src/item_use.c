@@ -1449,6 +1449,8 @@ static bool32 IsValidLocationForVsSeeker(void)
     u32 i;
     Location validIndoorLocations[] =
     {
+        {0,0}
+        /*
         { MAP_GROUP(MT_PYRE_SUMMIT),           MAP_NUM(MT_PYRE_SUMMIT) },
         { MAP_GROUP(SAFARI_ZONE_NORTH),        MAP_NUM(SAFARI_ZONE_NORTH) },
         { MAP_GROUP(SAFARI_ZONE_NORTHEAST),    MAP_NUM(SAFARI_ZONE_NORTHEAST) },
@@ -1459,6 +1461,7 @@ static bool32 IsValidLocationForVsSeeker(void)
         { MAP_GROUP(SKY_PILLAR_TOP),           MAP_NUM(SKY_PILLAR_TOP) },
         { MAP_GROUP(SOUTHERN_ISLAND_EXTERIOR), MAP_NUM(SOUTHERN_ISLAND_EXTERIOR) },
         { MAP_GROUP(SOUTHERN_ISLAND_INTERIOR), MAP_NUM(SOUTHERN_ISLAND_INTERIOR) },
+        */
         //{ MAP_GROUP(RUSTBORO_CITY_GYM),        MAP_NUM(RUSTBORO_CITY_GYM) },
         //{ MAP_GROUP(DEWFORD_TOWN_GYM),         MAP_NUM(DEWFORD_TOWN_GYM) },
         //{ MAP_GROUP(MAUVILLE_CITY_GYM),        MAP_NUM(MAUVILLE_CITY_GYM) },

@@ -31,11 +31,15 @@
 
 // Only maps in the following map groups have their encounters considered for the area screen
 
-//#define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(0) //<- Poner un mapa - Sino no compila esta cosa
+//#define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(ROUTE101) //<- Poner un mapa - Sino no compila esta cosa
 #define MAP_GROUP_TOWNS_AND_ROUTES 0 // <- Solucion temporal
 
-#define MAP_GROUP_DUNGEONS MAP_GROUP(METEOR_FALLS_1F_1R)
-#define MAP_GROUP_SPECIAL_AREA MAP_GROUP(SAFARI_ZONE_NORTHWEST)
+//#define MAP_GROUP_DUNGEONS MAP_GROUP(METEOR_FALLS_1F_1R)
+#define MAP_GROUP_DUNGEONS 1 // <- Solucion temporal
+
+
+//#define MAP_GROUP_SPECIAL_AREA MAP_GROUP(SAFARI_ZONE_NORTHWEST)
+#define MAP_GROUP_SPECIAL_AREA 2 // <- Solucion temporal
 
 #define AREA_SCREEN_WIDTH 32
 #define AREA_SCREEN_HEIGHT 20
@@ -267,6 +271,7 @@ static void FindMapsWithMon(u16 species)
     // in the regular wild encounter table) to the area map.
     // This only applies to Feebas on Route 119, but it was clearly set
     // up to allow handling others.
+    
     for (i = 0; sFeebasData[i][0] != NUM_SPECIES; i++)
     {
         if (species == sFeebasData[i][0])
@@ -282,8 +287,9 @@ static void FindMapsWithMon(u16 species)
                 break;
             }
         }
+        
     }
-
+    
     // Add regular species to the area map
     for (i = 0; gWildMonHeaders[i].mapGroup != MAP_GROUP(UNDEFINED); i++)
     {
@@ -301,6 +307,7 @@ static void FindMapsWithMon(u16 species)
             }
         }
     }
+    
 
     // Add roamers to the area map
     for (i = 0; i < ROAMER_COUNT; i++)

@@ -882,46 +882,6 @@
             "blockdata_filepath": "data/layouts/InsideOfTruck/map.bin"
         },
         {
-            "id": "LAYOUT_SAFARI_ZONE_NORTHWEST",
-            "name": "SafariZone_Northwest_Layout",
-            "width": 40,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/SafariZone_Northwest/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_Northwest/map.bin"
-        },
-        {
-            "id": "LAYOUT_SAFARI_ZONE_NORTH",
-            "name": "SafariZone_North_Layout",
-            "width": 40,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/SafariZone_North/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_North/map.bin"
-        },
-        {
-            "id": "LAYOUT_SAFARI_ZONE_SOUTHWEST",
-            "name": "SafariZone_Southwest_Layout",
-            "width": 40,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/SafariZone_Southwest/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_Southwest/map.bin"
-        },
-        {
-            "id": "LAYOUT_SAFARI_ZONE_SOUTH",
-            "name": "SafariZone_South_Layout",
-            "width": 40,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/SafariZone_South/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_South/map.bin"
-        },
-        {
             "id": "LAYOUT_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY",
             "name": "BattleFrontier_BattleTowerLobby_Layout",
             "width": 25,
@@ -1310,16 +1270,6 @@
             "secondary_tileset": "gTileset_Cave",
             "border_filepath": "data/layouts/ShoalCave_LowTideIceRoom/border.bin",
             "blockdata_filepath": "data/layouts/ShoalCave_LowTideIceRoom/map.bin"
-        },
-        {
-            "id": "LAYOUT_SAFARI_ZONE_REST_HOUSE",
-            "name": "SafariZone_RestHouse_Layout",
-            "width": 10,
-            "height": 9,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_GenericBuilding",
-            "border_filepath": "data/layouts/SafariZone_RestHouse/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_RestHouse/map.bin"
         },
         {
             "id": "LAYOUT_SKY_PILLAR_5F",
@@ -1910,26 +1860,6 @@
             "secondary_tileset": "gTileset_UnionRoom",
             "border_filepath": "data/layouts/UnionRoom/border.bin",
             "blockdata_filepath": "data/layouts/UnionRoom/map.bin"
-        },
-        {
-            "id": "LAYOUT_SAFARI_ZONE_NORTHEAST",
-            "name": "SafariZone_Northeast_Layout",
-            "width": 40,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/SafariZone_Northeast/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_Northeast/map.bin"
-        },
-        {
-            "id": "LAYOUT_SAFARI_ZONE_SOUTHEAST",
-            "name": "SafariZone_Southeast_Layout",
-            "width": 40,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/SafariZone_Southeast/border.bin",
-            "blockdata_filepath": "data/layouts/SafariZone_Southeast/map.bin"
         },
         {
             "id": "LAYOUT_BATTLE_FRONTIER_RANKING_HALL",
