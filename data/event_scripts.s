@@ -103,7 +103,6 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
-	.include "data/maps/Route112/scripts.inc"
 	.include "data/maps/Route113/scripts.inc"
 	.include "data/maps/Route114/scripts.inc"
 	.include "data/maps/Route115/scripts.inc"
@@ -133,7 +132,6 @@ gStdScripts_End::
 	.include "data/maps/Underwater_Route129/scripts.inc"
 	.include "data/maps/Underwater_Route105/scripts.inc"
 	.include "data/maps/Underwater_Route125/scripts.inc"
-	.include "data/maps/Route112_CableCarStation/scripts.inc"
 	.include "data/maps/MtChimney_CableCarStation/scripts.inc"
 	.include "data/maps/Route114_FossilManiacsHouse/scripts.inc"
 	.include "data/maps/Route114_FossilManiacsTunnel/scripts.inc"

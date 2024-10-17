@@ -91,6 +91,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_TYPES(TYPE_FIRE, TYPE_FIRE),
         },
     },
+    /*
     [COND_MSG_ROUTE_112] =
     {
         .text = sCondMsg07,
@@ -100,6 +101,7 @@ const struct FollowerMsgInfoExtended gFollowerConditionalMessages[COND_MSG_COUNT
             MATCH_MAP(ROUTE112),
         },
     },
+    */
     [COND_MSG_DAY_CARE] =
     {
         .text = sCondMsg08,
