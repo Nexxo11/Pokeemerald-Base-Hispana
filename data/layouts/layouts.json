@@ -122,16 +122,6 @@
             "blockdata_filepath": "data/layouts/RusturfTunnel/map.bin"
         },
         {
-            "id": "LAYOUT_UNDERWATER_SOOTOPOLIS_CITY",
-            "name": "Underwater_SootopolisCity_Layout",
-            "width": 20,
-            "height": 10,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Underwater",
-            "border_filepath": "data/layouts/Underwater_SootopolisCity/border.bin",
-            "blockdata_filepath": "data/layouts/Underwater_SootopolisCity/map.bin"
-        },
-        {
             "id": "LAYOUT_DESERT_RUINS",
             "name": "DesertRuins_Layout",
             "width": 17,
