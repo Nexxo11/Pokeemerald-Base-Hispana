@@ -103,7 +103,6 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
-	.include "data/maps/Route113/scripts.inc"
 	.include "data/maps/Route114/scripts.inc"
 	.include "data/maps/Route115/scripts.inc"
 	.include "data/maps/Route116/scripts.inc"
@@ -339,7 +338,6 @@ gStdScripts_End::
 	.include "data/maps/NavelRock_Down11/scripts.inc"
 	.include "data/maps/NavelRock_Bottom/scripts.inc"
 	.include "data/maps/TrainerHill_Elevator/scripts.inc"
-	.include "data/maps/Route113_GlassWorkshop/scripts.inc"
 	.include "data/maps/Route123_BerryMastersHouse/scripts.inc"
 	.include "data/maps/Route119_WeatherInstitute_1F/scripts.inc"
 	.include "data/maps/Route119_WeatherInstitute_2F/scripts.inc"
