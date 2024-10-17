@@ -6,10 +6,9 @@
 //
 
 // gMapGroup_TownsAndRoutes
-#define MAP_UNDERWATER_ROUTE128 (0 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE129 (1 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE105 (2 | (0 << 8))
-#define MAP_UNDERWATER_ROUTE125 (3 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE129 (0 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE105 (1 | (0 << 8))
+#define MAP_UNDERWATER_ROUTE125 (2 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 
