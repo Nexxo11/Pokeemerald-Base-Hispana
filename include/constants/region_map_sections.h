@@ -50,8 +50,8 @@
 #define MAPSEC_ROUTE_131                    0x2E //Eliminado
 #define MAPSEC_ROUTE_132                    0x2F //Eliminado
 #define MAPSEC_ROUTE_133                    0x30 //Eliminado
-#define MAPSEC_ROUTE_134                    0x31 //
-#define MAPSEC_UNDERWATER_124               0x32
+#define MAPSEC_ROUTE_134                    0x31 //Eliminado
+#define MAPSEC_UNDERWATER_124               0x32 //
 #define MAPSEC_UNDERWATER_126               0x33
 #define MAPSEC_UNDERWATER_127               0x34
 #define MAPSEC_UNDERWATER_128               0x35
@@ -64,21 +64,21 @@
 #define MAPSEC_RUSTURF_TUNNEL               0x3C
 #define MAPSEC_ABANDONED_SHIP               0x3D
 #define MAPSEC_NEW_MAUVILLE                 0x3E
-#define MAPSEC_METEOR_FALLS                 0x3F
-#define MAPSEC_METEOR_FALLS2                0x40
-#define MAPSEC_MT_PYRE                      0x41
-#define MAPSEC_AQUA_HIDEOUT_OLD             0x42
+#define MAPSEC_METEOR_FALLS                 0x3F 
+#define MAPSEC_METEOR_FALLS2                0x40 //Eliminado
+#define MAPSEC_MT_PYRE                      0x41 
+#define MAPSEC_AQUA_HIDEOUT_OLD             0x42 //Eliminado
 #define MAPSEC_SHOAL_CAVE                   0x43
 #define MAPSEC_SEAFLOOR_CAVERN              0x44
 #define MAPSEC_UNDERWATER_SEAFLOOR_CAVERN   0x45
 #define MAPSEC_VICTORY_ROAD                 0x46
-#define MAPSEC_MIRAGE_ISLAND                0x47
+#define MAPSEC_MIRAGE_ISLAND                0x47 //Eliminado
 #define MAPSEC_CAVE_OF_ORIGIN               0x48
 #define MAPSEC_SOUTHERN_ISLAND              0x49
 #define MAPSEC_FIERY_PATH                   0x4A
-#define MAPSEC_FIERY_PATH2                  0x4B
+#define MAPSEC_FIERY_PATH2                  0x4B //Eliminado
 #define MAPSEC_JAGGED_PASS                  0x4C
-#define MAPSEC_JAGGED_PASS2                 0x4D
+#define MAPSEC_JAGGED_PASS2                 0x4D //Eliminado
 #define MAPSEC_SEALED_CHAMBER               0x4E
 #define MAPSEC_UNDERWATER_SEALED_CHAMBER    0x4F
 #define MAPSEC_SCORCHED_SLAB                0x50
@@ -89,11 +89,11 @@
 #define MAPSEC_SKY_PILLAR                   0x55
 #define MAPSEC_SECRET_BASE                  0x56
 #define MAPSEC_DYNAMIC                      0x57
-#define MAPSEC_PALLET_TOWN                  0x58
-#define MAPSEC_VIRIDIAN_CITY                0x59
-#define MAPSEC_PEWTER_CITY                  0x5A
-#define MAPSEC_CERULEAN_CITY                0x5B
-#define MAPSEC_LAVENDER_TOWN                0x5C
+#define MAPSEC_PALLET_TOWN                  0x58 //Eliminado
+#define MAPSEC_VIRIDIAN_CITY                0x59 //Eliminado
+#define MAPSEC_PEWTER_CITY                  0x5A //Eliminado
+#define MAPSEC_CERULEAN_CITY                0x5B //Eliminado
+#define MAPSEC_LAVENDER_TOWN                0x5C //Eliminado
 #define MAPSEC_VERMILION_CITY               0x5D
 #define MAPSEC_CELADON_CITY                 0x5E
 #define MAPSEC_FUCHSIA_CITY                 0x5F
