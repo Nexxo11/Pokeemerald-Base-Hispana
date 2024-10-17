@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE123",
-            "name": "Route123_Layout",
-            "width": 140,
-            "height": 20,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lilycove",
-            "border_filepath": "data/layouts/Route123/border.bin",
-            "blockdata_filepath": "data/layouts/Route123/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE124",
             "name": "Route124_Layout",
             "width": 80,
@@ -1200,16 +1190,6 @@
             "secondary_tileset": "gTileset_GenericBuilding",
             "border_filepath": "data/layouts/House1/border.bin",
             "blockdata_filepath": "data/layouts/House1/map.bin"
-        },
-        {
-            "id": "LAYOUT_HOUSE2",
-            "name": "House2_Layout",
-            "width": 11,
-            "height": 8,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_GenericBuilding",
-            "border_filepath": "data/layouts/House2/border.bin",
-            "blockdata_filepath": "data/layouts/House2/map.bin"
         },
         {
             "id": "LAYOUT_POKEMON_CENTER_1F",
