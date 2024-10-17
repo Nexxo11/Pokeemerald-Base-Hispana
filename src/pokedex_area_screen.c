@@ -30,7 +30,10 @@
 //   determined by the data for the corresponding MAPSEC in gRegionMapEntries.
 
 // Only maps in the following map groups have their encounters considered for the area screen
-#define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(ROUTE134) //<- Random Map - Sino no compila esta cosa
+
+//#define MAP_GROUP_TOWNS_AND_ROUTES MAP_GROUP(0) //<- Poner un mapa - Sino no compila esta cosa
+#define MAP_GROUP_TOWNS_AND_ROUTES 0 // <- Solucion temporal
+
 #define MAP_GROUP_DUNGEONS MAP_GROUP(METEOR_FALLS_1F_1R)
 #define MAP_GROUP_SPECIAL_AREA MAP_GROUP(SAFARI_ZONE_NORTHWEST)
 
@@ -120,8 +123,9 @@ static const u16 sMovingRegionMapSections[3] =
 
 static const u16 sFeebasData[][3] =
 {
-    {SPECIES_FEEBAS, MAP_GROUP(ROUTE134), MAP_NUM(ROUTE134)},
-    {NUM_SPECIES}
+    {0,0,0}
+    //{SPECIES_FEEBAS, MAP_GROUP(ROUTE134), MAP_NUM(ROUTE134)},
+    //{NUM_SPECIES}
 };
 
 static const u16 sLandmarkData[][2] =

@@ -117,6 +117,18 @@ static u16 GetFeebasFishingSpotId(s16 targetX, s16 targetY, u8 section)
     return spotId + 1;
 }
 
+/**
+ * @brief Verifica si el jugador está en un punto de pesca de Feebas.
+ *
+ * Esta función determina si el jugador está actualmente posicionado en un 
+ * punto de pesca designado para Feebas en la Ruta 119. La función utiliza 
+ * las coordenadas del jugador y un conjunto predefinido de puntos de Feebas 
+ * para hacer esta determinación. Los puntos de Feebas se generan en base a 
+ * una semilla fija del archivo de guardado del jugador.
+ *
+ * @return TRUE si el jugador está en un punto de pesca de Feebas, FALSE en caso contrario.
+ */
+
 static bool8 CheckFeebas(void)
 {
     u8 i;
@@ -124,7 +136,7 @@ static bool8 CheckFeebas(void)
     s16 x, y;
     u8 route119Section = 0;
     u16 spotId;
-
+    /*
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE134)
      && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE134))
     {
@@ -171,6 +183,7 @@ static bool8 CheckFeebas(void)
                 return TRUE;
         }
     }
+    */
     return FALSE;
 }
 

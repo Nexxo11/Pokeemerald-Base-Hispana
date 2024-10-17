@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route134",
         "Underwater_Route124",
         "Underwater_Route126",
         "Underwater_Route127",
@@ -325,7 +324,6 @@
     "gMapGroup_IndoorRoute119": [],
     "gMapGroup_IndoorRoute124": [],
     "connections_include_order": [
-        "Route134",
         "Underwater_Route105",
         "Underwater_Route124",
         "Underwater_Route125",

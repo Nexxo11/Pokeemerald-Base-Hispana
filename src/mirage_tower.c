@@ -264,10 +264,19 @@ EWRAM_DATA static struct MirageTowerPulseBlend *sMirageTowerPulseBlend = NULL;
 // Never read, presumably for debugging
 static u16 sDebug_DisintegrationData[8];
 
+
+/**
+ * @brief Verifica si la Torre Espejismo es visible.
+ *
+ * Esta función determina si la Torre Espejismo debe ser visible
+ * en función del estado de una bandera específica.
+ *
+ * @return TRUE si la Torre Espejismo es visible, FALSE en caso contrario.
+ */
 bool8 IsMirageTowerVisible(void)
 {
-    if (!(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE134) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE134)))
-        return FALSE;
+    //if (!(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE134) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE134)))
+    //    return FALSE;
     return FlagGet(FLAG_MIRAGE_TOWER_VISIBLE);
 }
 
@@ -288,12 +297,12 @@ void TryStartMirageTowerPulseBlendEffect(void)
         sMirageTowerPulseBlend = NULL;
         return;
     }
-
+    /*
     if (gSaveBlock1Ptr->location.mapGroup != MAP_GROUP(ROUTE134)
      || gSaveBlock1Ptr->location.mapNum != MAP_NUM(ROUTE134)
      || !FlagGet(FLAG_MIRAGE_TOWER_VISIBLE))
         return;
-
+    */
     sMirageTowerPulseBlend = AllocZeroed(sizeof(*sMirageTowerPulseBlend));
     InitPulseBlend(&sMirageTowerPulseBlend->pulseBlend);
     InitPulseBlendPaletteSettings(&sMirageTowerPulseBlend->pulseBlend, &gMirageTowerPulseBlendSettings);
@@ -303,12 +312,13 @@ void TryStartMirageTowerPulseBlendEffect(void)
 
 void ClearMirageTowerPulseBlendEffect(void)
 {
+    /*
     if (gSaveBlock1Ptr->location.mapGroup != MAP_GROUP(ROUTE134)
      || gSaveBlock1Ptr->location.mapNum   != MAP_NUM(ROUTE134)
      || !FlagGet(FLAG_MIRAGE_TOWER_VISIBLE)
      || sMirageTowerPulseBlend == NULL)
         return;
-
+    */
     if (FuncIsActiveTask(UpdateMirageTowerPulseBlend))
         DestroyTask(sMirageTowerPulseBlend->taskId);
 
