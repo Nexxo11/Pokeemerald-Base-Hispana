@@ -300,8 +300,21 @@ bool32 CountSSTidalStep(u16 delta)
     return TRUE;
 }
 
+/**
+ * @brief Determina la ubicación actual del SS Tidal según su estado y actualiza las coordenadas del mapa.
+ *
+ * Esta función calcula la ubicación del SS Tidal verificando el estado del SS Tidal y el conteo de pasos del crucero.
+ * Actualiza el grupo de mapas, el número de mapa y las coordenadas proporcionadas en consecuencia.
+ *
+ * @param mapGroup Puntero a una variable donde se almacenará el grupo de mapas.
+ * @param mapNum Puntero a una variable donde se almacenará el número de mapa.
+ * @param x Puntero a una variable donde se almacenará la coordenada x.
+ * @param y Puntero a una variable donde se almacenará la coordenada y.
+ * @return La ubicación actual del SS Tidal.
+ */
 u8 GetSSTidalLocation(s8 *mapGroup, s8 *mapNum, s16 *x, s16 *y)
 {
+    /*
     u16 *varCruiseStepCount = GetVarPointer(VAR_CRUISE_STEP_COUNT);
     switch (*GetVarPointer(VAR_SS_TIDAL_STATE))
     {
@@ -354,7 +367,9 @@ u8 GetSSTidalLocation(s8 *mapGroup, s8 *mapNum, s16 *x, s16 *y)
     }
     *mapGroup = MAP_GROUP(ROUTE132);
     *y = 20;
-    return SS_TIDAL_LOCATION_CURRENTS;
+    */
+    return SS_TIDAL_LOCATION_CURRENTS; // Retorna 0
+    
 }
 
 bool32 ShouldDoWallyCall(void)

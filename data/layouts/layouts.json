@@ -12,16 +12,6 @@
             "blockdata_filepath": "data/layouts/Route130_MirageIsland/map.bin"
         },
         {
-            "id": "LAYOUT_ROUTE132",
-            "name": "Route132_Layout",
-            "width": 80,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Pacifidlog",
-            "border_filepath": "data/layouts/Route132/border.bin",
-            "blockdata_filepath": "data/layouts/Route132/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE133",
             "name": "Route133_Layout",
             "width": 80,
