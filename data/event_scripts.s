@@ -103,7 +103,6 @@ gStdScripts::
 	.4byte Std_MsgboxPokenav           @ MSGBOX_POKENAV
 gStdScripts_End::
 
-	.include "data/maps/Route131/scripts.inc"
 	.include "data/maps/Route132/scripts.inc"
 	.include "data/maps/Route133/scripts.inc"
 	.include "data/maps/Route134/scripts.inc"
