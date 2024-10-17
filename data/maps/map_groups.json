@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route109",
         "Route110",
         "Route111",
         "Route112",
@@ -357,9 +356,7 @@
         "NavelRock_Bottom",
         "TrainerHill_Elevator"
     ],
-    "gMapGroup_IndoorRoute109": [
-        "Route109_SeashoreHouse"
-    ],
+    "gMapGroup_IndoorRoute109": [],
     "gMapGroup_IndoorRoute110": [
         "Route110_TrickHouseEntrance",
         "Route110_TrickHouseEnd",
@@ -390,7 +387,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route109",
         "Route110",
         "Route111",
         "Route112",

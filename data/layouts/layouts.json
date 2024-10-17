@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE109",
-            "name": "Route109_Layout",
-            "width": 40,
-            "height": 63,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Slateport",
-            "border_filepath": "data/layouts/Route109/border.bin",
-            "blockdata_filepath": "data/layouts/Route109/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE110",
             "name": "Route110_Layout",
             "width": 40,
@@ -1320,16 +1310,6 @@
             "secondary_tileset": "gTileset_Lilycove",
             "border_filepath": "data/layouts/SafariZone_South/border.bin",
             "blockdata_filepath": "data/layouts/SafariZone_South/map.bin"
-        },
-        {
-            "id": "LAYOUT_ROUTE109_SEASHORE_HOUSE",
-            "name": "Route109_SeashoreHouse_Layout",
-            "width": 15,
-            "height": 10,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_SeashoreHouse",
-            "border_filepath": "data/layouts/Route109_SeashoreHouse/border.bin",
-            "blockdata_filepath": "data/layouts/Route109_SeashoreHouse/map.bin"
         },
         {
             "id": "LAYOUT_ROUTE110_TRICK_HOUSE_ENTRANCE",
