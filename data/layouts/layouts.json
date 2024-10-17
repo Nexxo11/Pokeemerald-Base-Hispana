@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE120",
-            "name": "Route120_Layout",
-            "width": 40,
-            "height": 100,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Fortree",
-            "border_filepath": "data/layouts/Route120/border.bin",
-            "blockdata_filepath": "data/layouts/Route120/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE121",
             "name": "Route121_Layout",
             "width": 80,
