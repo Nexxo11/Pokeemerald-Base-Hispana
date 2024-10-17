@@ -3508,7 +3508,7 @@ bool8 AbnormalWeatherHasExpired(void)
                 break;
             }
         }
-
+        /*
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_ROUTE127))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
@@ -3523,6 +3523,7 @@ bool8 AbnormalWeatherHasExpired(void)
                 break;
             }
         }
+        */
 
         if (gSaveBlock1Ptr->location.mapNum == sAbnormalWeatherMapNumbers[abnormalWeather - 1] &&
             gSaveBlock1Ptr->location.mapGroup == 0)
