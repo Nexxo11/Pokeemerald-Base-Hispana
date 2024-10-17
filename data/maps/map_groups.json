@@ -35,7 +35,6 @@
         "gMapGroup_IndoorRoute124"
     ],
     "gMapGroup_TownsAndRoutes": [
-        "Route118",
         "Route119",
         "Route120",
         "Route121",
@@ -351,7 +350,6 @@
         "Route124_DivingTreasureHuntersHouse"
     ],
     "connections_include_order": [
-        "Route118",
         "Route119",
         "Route120",
         "Route121",
