@@ -42,8 +42,8 @@
 #define MAPSEC_ROUTE_123                    0x26 //Eliminado
 #define MAPSEC_ROUTE_124                    0x27 //Eliminado
 #define MAPSEC_ROUTE_125                    0x28 //Eliminado
-#define MAPSEC_ROUTE_126                    0x29 //
-#define MAPSEC_ROUTE_127                    0x2A
+#define MAPSEC_ROUTE_126                    0x29 //Eliminado
+#define MAPSEC_ROUTE_127                    0x2A //
 #define MAPSEC_ROUTE_128                    0x2B
 #define MAPSEC_ROUTE_129                    0x2C
 #define MAPSEC_ROUTE_130                    0x2D
