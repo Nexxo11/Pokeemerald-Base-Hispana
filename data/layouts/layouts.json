@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE102",
-            "name": "Route102_Layout",
-            "width": 50,
-            "height": 20,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Petalburg",
-            "border_filepath": "data/layouts/Route102/border.bin",
-            "blockdata_filepath": "data/layouts/Route102/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE103",
             "name": "Route103_Layout",
             "width": 80,
