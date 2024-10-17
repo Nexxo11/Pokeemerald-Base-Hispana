@@ -2,16 +2,6 @@
     "layouts_table_label": "gMapLayouts",
     "layouts": [
         {
-            "id": "LAYOUT_ROUTE124",
-            "name": "Route124_Layout",
-            "width": 80,
-            "height": 80,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Mossdeep",
-            "border_filepath": "data/layouts/Route124/border.bin",
-            "blockdata_filepath": "data/layouts/Route124/map.bin"
-        },
-        {
             "id": "LAYOUT_ROUTE125",
             "name": "Route125_Layout",
             "width": 80,
@@ -1390,16 +1380,6 @@
             "secondary_tileset": "gTileset_Lavaridge",
             "border_filepath": "data/layouts/FieryPath/border.bin",
             "blockdata_filepath": "data/layouts/FieryPath/map.bin"
-        },
-        {
-            "id": "LAYOUT_ROUTE124_DIVING_TREASURE_HUNTERS_HOUSE",
-            "name": "Route124_DivingTreasureHuntersHouse_Layout",
-            "width": 10,
-            "height": 9,
-            "primary_tileset": "gTileset_Building",
-            "secondary_tileset": "gTileset_GenericBuilding",
-            "border_filepath": "data/layouts/Route124_DivingTreasureHuntersHouse/border.bin",
-            "blockdata_filepath": "data/layouts/Route124_DivingTreasureHuntersHouse/map.bin"
         },
         {
             "id": "LAYOUT_MT_PYRE_EXTERIOR",
