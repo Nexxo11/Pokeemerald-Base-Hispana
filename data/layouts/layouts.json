@@ -72,36 +72,6 @@
             "blockdata_filepath": "data/layouts/DesertRuins/map.bin"
         },
         {
-            "id": "LAYOUT_CAVE_OF_ORIGIN_ENTRANCE",
-            "name": "CaveOfOrigin_Entrance_Layout",
-            "width": 19,
-            "height": 26,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/CaveOfOrigin_Entrance/border.bin",
-            "blockdata_filepath": "data/layouts/CaveOfOrigin_Entrance/map.bin"
-        },
-        {
-            "id": "LAYOUT_CAVE_OF_ORIGIN_1F",
-            "name": "CaveOfOrigin_1F_Layout",
-            "width": 23,
-            "height": 23,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/CaveOfOrigin_1F/border.bin",
-            "blockdata_filepath": "data/layouts/CaveOfOrigin_1F/map.bin"
-        },
-        {
-            "id": "LAYOUT_CAVE_OF_ORIGIN_B1F",
-            "name": "CaveOfOrigin_B1F_Layout",
-            "width": 19,
-            "height": 19,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/CaveOfOrigin_B1F/border.bin",
-            "blockdata_filepath": "data/layouts/CaveOfOrigin_B1F/map.bin"
-        },
-        {
             "id": "LAYOUT_SECRET_BASE_RED_CAVE1",
             "name": "SecretBase_RedCave1_Layout",
             "width": 11,
