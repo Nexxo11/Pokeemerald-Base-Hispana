@@ -3427,25 +3427,7 @@ bool32 GetAbnormalWeatherMapNameAndType(void)
 {
     
     static const u8 sAbnormalWeatherMapNumbers[] = {
-        0
-        /*
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE129),
-        MAP_NUM(ROUTE129)
-        */
+        MAP_NUM(SKY_PILLAR_OUTSIDE),
     };
 
     u16 abnormalWeather = VarGet(VAR_ABNORMAL_WEATHER_LOCATION);
@@ -3463,26 +3445,9 @@ bool8 AbnormalWeatherHasExpired(void)
     // Duplicate array.
     static const u8 sAbnormalWeatherMapNumbers[] =
     {
-        0
-        /*
-        
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE114),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE115),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE116),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE118),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE105),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE125),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE127),
-        MAP_NUM(ROUTE129),
-        MAP_NUM(ROUTE129)
-        */
+
+        MAP_NUM(SKY_PILLAR_OUTSIDE),
+
         
     };
 
@@ -3492,17 +3457,17 @@ bool8 AbnormalWeatherHasExpired(void)
     if (abnormalWeather == ABNORMAL_WEATHER_NONE)
         return FALSE;
 
-    if (++steps > 999)
+    if (++steps > 5)
     {
         VarSet(VAR_ABNORMAL_WEATHER_STEP_COUNTER, 0);
         if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_MARINE_CAVE))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
-            {
+            {/*
             case MAP_NUM(UNDERWATER_MARINE_CAVE):
             case MAP_NUM(MARINE_CAVE_ENTRANCE):
             case MAP_NUM(MARINE_CAVE_END):
-            case MAP_NUM(TERRA_CAVE_ENTRANCE):
+            case MAP_NUM(TERRA_CAVE_ENTRANCE):*/
             case MAP_NUM(TERRA_CAVE_END):
                 VarSet(VAR_SHOULD_END_ABNORMAL_WEATHER, 1);
                 return FALSE;
@@ -3510,22 +3475,20 @@ bool8 AbnormalWeatherHasExpired(void)
                 break;
             }
         }
-        /*
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_ROUTE127))
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_ROUTE129))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
-            {
+            {/*
             case MAP_NUM(UNDERWATER_ROUTE127):
             case MAP_NUM(UNDERWATER_ROUTE129):
-            case MAP_NUM(UNDERWATER_ROUTE105):
-            case MAP_NUM(UNDERWATER_ROUTE125):
+            case MAP_NUM(UNDERWATER_ROUTE105):*/
+            case MAP_NUM(TERRA_CAVE_END):
                 VarSet(VAR_SHOULD_END_ABNORMAL_WEATHER, 1);
                 return FALSE;
             default:
                 break;
             }
         }
-        */
 
         if (gSaveBlock1Ptr->location.mapNum == sAbnormalWeatherMapNumbers[abnormalWeather - 1] &&
             gSaveBlock1Ptr->location.mapGroup == 0)

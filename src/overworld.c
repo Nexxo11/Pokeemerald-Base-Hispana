@@ -1057,9 +1057,10 @@ void SetObjectEventLoadFlag(u8 flag)
  */
 static bool16 ShouldLegendaryMusicPlayAtLocation(struct WarpData *warp)
 {
-    /*
+    
     if (!FlagGet(FLAG_SYS_WEATHER_CTRL))
         return FALSE;
+    /*
     if (warp->mapGroup == 0)
     {
         switch (warp->mapNum)
@@ -2222,7 +2223,7 @@ static void ResumeMap(bool32 a1)
     if (!a1)
         SetUpFieldTasks();
     RunOnResumeMapScript();
-    TryStartMirageTowerPulseBlendEffect();
+    //TryStartMirageTowerPulseBlendEffect();
 }
 
 static void InitObjectEventsLink(void)
