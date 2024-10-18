@@ -63,10 +63,6 @@
     "gMapGroup_IndoorRoute117": [],
     "gMapGroup_IndoorRoute121": [],
     "gMapGroup_Dungeons": [
-        "MeteorFalls_1F_1R",
-        "MeteorFalls_1F_2R",
-        "MeteorFalls_B1F_1R",
-        "MeteorFalls_B1F_2R",
         "DesertRuins",
         "JaggedPass",
         "FieryPath",
@@ -137,8 +133,7 @@
         "MarineCave_End",
         "TerraCave_Entrance",
         "TerraCave_End",
-        "AlteringCave",
-        "MeteorFalls_StevensCave"
+        "AlteringCave"
     ],
     "gMapGroup_IndoorDynamic": [
         "SecretBase_RedCave1",
