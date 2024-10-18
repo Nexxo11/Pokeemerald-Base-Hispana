@@ -822,16 +822,6 @@
             "blockdata_filepath": "data/layouts/IslandHarbor/map.bin"
         },
         {
-            "id": "LAYOUT_UNDERWATER_MARINE_CAVE",
-            "name": "Underwater_MarineCave_Layout",
-            "width": 20,
-            "height": 10,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Underwater",
-            "border_filepath": "data/layouts/Underwater_MarineCave/border.bin",
-            "blockdata_filepath": "data/layouts/Underwater_MarineCave/map.bin"
-        },
-        {
             "id": "LAYOUT_TERRA_CAVE_ENTRANCE",
             "name": "TerraCave_Entrance_Layout",
             "width": 20,

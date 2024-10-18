@@ -3464,7 +3464,7 @@ bool8 AbnormalWeatherHasExpired(void)
     if (++steps > 5)
     {
         VarSet(VAR_ABNORMAL_WEATHER_STEP_COUNTER, 0);
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_MARINE_CAVE))
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(BATTLE_FRONTIER_OUTSIDE_WEST))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
             {/*

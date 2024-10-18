@@ -14,22 +14,7 @@
     "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
     "connections": null,
     "object_events": [],
-    "warp_events": [
-        {
-            "x": 13,
-            "y": 4,
-            "elevation": 0,
-            "dest_map": "MAP_UNDERWATER_MARINE_CAVE",
-            "dest_warp_id": "0"
-        },
-        {
-            "x": 17,
-            "y": 66,
-            "elevation": 0,
-            "dest_map": "MAP_UNDERWATER_MARINE_CAVE",
-            "dest_warp_id": "0"
-        }
-    ],
+    "warp_events": null,
     "coord_events": [],
     "bg_events": []
 }
