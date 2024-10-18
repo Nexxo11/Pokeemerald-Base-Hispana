@@ -111,8 +111,6 @@ gStdScripts_End::
 	.include "data/maps/AncientTomb/scripts.inc"
 	.include "data/maps/Underwater_Route134/scripts.inc"
 	.include "data/maps/Underwater_SealedChamber/scripts.inc"
-	.include "data/maps/SealedChamber_OuterRoom/scripts.inc"
-	.include "data/maps/SealedChamber_InnerRoom/scripts.inc"
 	.include "data/maps/ScorchedSlab/scripts.inc"
 	.include "data/maps/SkyPillar_Entrance/scripts.inc"
 	.include "data/maps/SkyPillar_Outside/scripts.inc"

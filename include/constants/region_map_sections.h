@@ -77,9 +77,9 @@
 #define MAPSEC_SOUTHERN_ISLAND              0x49 //Eliminado
 #define MAPSEC_FIERY_PATH                   0x4A //Eliminado
 #define MAPSEC_FIERY_PATH2                  0x4B //Eliminado
-#define MAPSEC_JAGGED_PASS                  0x4C //
+#define MAPSEC_JAGGED_PASS                  0x4C //Eliminado
 #define MAPSEC_JAGGED_PASS2                 0x4D //Eliminado
-#define MAPSEC_SEALED_CHAMBER               0x4E
+#define MAPSEC_SEALED_CHAMBER               0x4E //
 #define MAPSEC_UNDERWATER_SEALED_CHAMBER    0x4F
 #define MAPSEC_SCORCHED_SLAB                0x50
 #define MAPSEC_ISLAND_CAVE                  0x51
@@ -199,7 +199,7 @@
 #define MAPSEC_EMBER_SPA                    0xC3
 #define MAPSEC_SPECIAL_AREA                 0xC4
 #define MAPSEC_AQUA_HIDEOUT                 0xC5
-#define MAPSEC_MAGMA_HIDEOUT                0xC6
+#define MAPSEC_MAGMA_HIDEOUT                0xC6 //
 #define MAPSEC_MIRAGE_TOWER                 0xC7
 #define MAPSEC_BIRTH_ISLAND                 0xC8
 #define MAPSEC_FARAWAY_ISLAND               0xC9

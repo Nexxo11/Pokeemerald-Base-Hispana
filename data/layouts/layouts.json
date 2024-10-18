@@ -592,26 +592,6 @@
             "blockdata_filepath": "data/layouts/Underwater_SealedChamber/map.bin"
         },
         {
-            "id": "LAYOUT_SEALED_CHAMBER_OUTER_ROOM",
-            "name": "SealedChamber_OuterRoom_Layout",
-            "width": 21,
-            "height": 23,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/SealedChamber_OuterRoom/border.bin",
-            "blockdata_filepath": "data/layouts/SealedChamber_OuterRoom/map.bin"
-        },
-        {
-            "id": "LAYOUT_SEALED_CHAMBER_INNER_ROOM",
-            "name": "SealedChamber_InnerRoom_Layout",
-            "width": 21,
-            "height": 23,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/SealedChamber_InnerRoom/border.bin",
-            "blockdata_filepath": "data/layouts/SealedChamber_InnerRoom/map.bin"
-        },
-        {
             "id": "LAYOUT_SCORCHED_SLAB",
             "name": "ScorchedSlab_Layout",
             "width": 15,

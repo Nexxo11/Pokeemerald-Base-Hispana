@@ -59,8 +59,23 @@ static void Task_SealedChamberShakingEffect(u8);
 static void DoBrailleRegirockEffect(void);
 static void DoBrailleRegisteelEffect(void);
 
+/**
+ * @file braille_puzzles.c
+ * @brief Contiene funciones relacionadas con los rompecabezas en Braille en el juego.
+ */
+
+/**
+ * @brief Verifica si se debe activar el efecto de Cavar en Braille.
+ *
+ * Esta función determina si se debe activar el efecto de Cavar en Braille
+ * basado en la ubicación actual del jugador y su posición dentro de la Cámara Sellada
+ * Habitación Exterior. La función está actualmente comentada y siempre devuelve FALSE.
+ *
+ * @return TRUE si se debe activar el efecto de Cavar en Braille, FALSE en caso contrario.
+ */
 bool8 ShouldDoBrailleDigEffect(void)
 {
+    /*
     if (!FlagGet(FLAG_SYS_BRAILLE_DIG)
      && (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(SEALED_CHAMBER_OUTER_ROOM)
      && gSaveBlock1Ptr->location.mapNum == MAP_NUM(SEALED_CHAMBER_OUTER_ROOM)))
@@ -72,6 +87,7 @@ bool8 ShouldDoBrailleDigEffect(void)
         if (gSaveBlock1Ptr->pos.x == 11 && gSaveBlock1Ptr->pos.y == 3)
             return TRUE;
     }
+    */
 
     return FALSE;
 }
