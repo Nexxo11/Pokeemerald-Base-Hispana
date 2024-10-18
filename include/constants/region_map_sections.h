@@ -66,9 +66,9 @@
 #define MAPSEC_NEW_MAUVILLE                 0x3E //Eliminado
 #define MAPSEC_METEOR_FALLS                 0x3F //Eliminado
 #define MAPSEC_METEOR_FALLS2                0x40 //Eliminado
-#define MAPSEC_MT_PYRE                      0x41 //
+#define MAPSEC_MT_PYRE                      0x41 //Eliminado
 #define MAPSEC_AQUA_HIDEOUT_OLD             0x42 //Eliminado
-#define MAPSEC_SHOAL_CAVE                   0x43
+#define MAPSEC_SHOAL_CAVE                   0x43 //
 #define MAPSEC_SEAFLOOR_CAVERN              0x44
 #define MAPSEC_UNDERWATER_SEAFLOOR_CAVERN   0x45
 #define MAPSEC_VICTORY_ROAD                 0x46
