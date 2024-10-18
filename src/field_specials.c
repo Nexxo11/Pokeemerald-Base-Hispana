@@ -3427,7 +3427,7 @@ bool32 GetAbnormalWeatherMapNameAndType(void)
 {
     
     static const u8 sAbnormalWeatherMapNumbers[] = {
-        MAP_NUM(SKY_PILLAR_OUTSIDE),
+        MAP_NUM(BATTLE_FRONTIER_OUTSIDE_WEST),
     };
 
     u16 abnormalWeather = VarGet(VAR_ABNORMAL_WEATHER_LOCATION);
@@ -3446,7 +3446,7 @@ bool8 AbnormalWeatherHasExpired(void)
     static const u8 sAbnormalWeatherMapNumbers[] =
     {
 
-        MAP_NUM(SKY_PILLAR_OUTSIDE),
+        MAP_NUM(BATTLE_FRONTIER_OUTSIDE_WEST),
 
         
     };

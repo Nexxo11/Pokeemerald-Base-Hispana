@@ -85,8 +85,8 @@
 #define MAPSEC_ISLAND_CAVE                  0x51 //Eliminado
 #define MAPSEC_DESERT_RUINS                 0x52 //Eliminado
 #define MAPSEC_ANCIENT_TOMB                 0x53 //Eliminado
-#define MAPSEC_INSIDE_OF_TRUCK              0x54
-#define MAPSEC_SKY_PILLAR                   0x55
+#define MAPSEC_INSIDE_OF_TRUCK              0x54 //No Eliminar Aun
+#define MAPSEC_SKY_PILLAR                   0x55 //Eliminado
 #define MAPSEC_SECRET_BASE                  0x56
 #define MAPSEC_DYNAMIC                      0x57 //DOLOR DE CABEZAAAAAAAAAAAAAAAAA
 #define MAPSEC_PALLET_TOWN                  0x58 //Eliminado
