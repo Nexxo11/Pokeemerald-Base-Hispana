@@ -1455,6 +1455,7 @@ static void InterviewAfter_BravoTrainerBattleTowerProfile(void)
 
 void TryPutSmartShopperOnAir(void)
 {
+    /*
     TVShow *show;
     u8 i;
 
@@ -1483,7 +1484,7 @@ void TryPutSmartShopperOnAir(void)
                 show->smartshopperShow.language = gGameLanguage;
             }
         }
-    }
+   }*/ 
 }
 
 void PutNameRaterShowOnTheAir(void)

@@ -137,13 +137,6 @@
 #define MAP_BATTLE_FRONTIER_POKEMON_CENTER_1F               (44 | (26 << 8))
 #define MAP_BATTLE_FRONTIER_POKEMON_CENTER_2F               (45 | (26 << 8))
 #define MAP_BATTLE_FRONTIER_MART                            (46 | (26 << 8))
-#define MAP_TRAINER_HILL_ENTRANCE                           (47 | (26 << 8))
-#define MAP_TRAINER_HILL_1F                                 (48 | (26 << 8))
-#define MAP_TRAINER_HILL_2F                                 (49 | (26 << 8))
-#define MAP_TRAINER_HILL_3F                                 (50 | (26 << 8))
-#define MAP_TRAINER_HILL_4F                                 (51 | (26 << 8))
-#define MAP_TRAINER_HILL_ROOF                               (52 | (26 << 8))
-#define MAP_TRAINER_HILL_ELEVATOR                           (53 | (26 << 8))
 
 // gMapGroup_IndoorRoute109
 

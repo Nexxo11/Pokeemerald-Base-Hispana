@@ -213,7 +213,7 @@
 #define MAPSEC_DESERT_UNDERPASS             0xD1 //Eliminado
 #define MAPSEC_ALTERING_CAVE                0xD2
 #define MAPSEC_NAVEL_ROCK                   0xD3 //Eliminado
-#define MAPSEC_TRAINER_HILL                 0xD4
+#define MAPSEC_TRAINER_HILL                 0xD4//Eliminado
 #define MAPSEC_NONE                         0xD5
 
 #define METLOC_SPECIAL_EGG                  0xFD

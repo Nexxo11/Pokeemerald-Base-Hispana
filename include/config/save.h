@@ -3,7 +3,7 @@
 
 // Configuraciones de SaveBlock1
 #define FREE_EXTRA_SEEN_FLAGS_SAVEBLOCK1    FALSE   // Libera las banderas de Pokédex vistas no utilizadas (52 bytes).
-#define FREE_TRAINER_HILL                   FALSE   // Libera los datos de Trainer Hill (28 bytes).
+#define FREE_TRAINER_HILL                   TRUE   // Libera los datos de Trainer Hill (28 bytes).
 #define FREE_MYSTERY_EVENT_BUFFERS          FALSE   // Libera el espacio de ramScript (1104 bytes).
 #define FREE_MATCH_CALL                     FALSE   // Libera los datos de llamadas de batalla y rematches / buscador VS. (104 bytes).
 #define FREE_UNION_ROOM_CHAT                FALSE   // Libera el chat de la sala de unión (212 bytes).
