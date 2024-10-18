@@ -131,12 +131,13 @@ static u16 GetFeebasFishingSpotId(s16 targetX, s16 targetY, u8 section)
 
 static bool8 CheckFeebas(void)
 {
+    /*
     u8 i;
     u16 feebasSpots[NUM_FEEBAS_SPOTS];
     s16 x, y;
     u8 route119Section = 0;
     u16 spotId;
-    /*
+    
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ROUTE134)
      && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE134))
     {
