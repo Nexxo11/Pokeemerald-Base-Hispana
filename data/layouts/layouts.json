@@ -612,16 +612,6 @@
             "blockdata_filepath": "data/layouts/JaggedPass/map.bin"
         },
         {
-            "id": "LAYOUT_FIERY_PATH",
-            "name": "FieryPath_Layout",
-            "width": 35,
-            "height": 38,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Lavaridge",
-            "border_filepath": "data/layouts/FieryPath/border.bin",
-            "blockdata_filepath": "data/layouts/FieryPath/map.bin"
-        },
-        {
             "id": "LAYOUT_SEALED_CHAMBER_INNER_ROOM",
             "name": "SealedChamber_InnerRoom_Layout",
             "width": 21,
