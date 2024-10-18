@@ -1,7 +1,7 @@
 #ifndef GUARD_REGIONMAPSEC_H
 #define GUARD_REGIONMAPSEC_H
 
-#define MAPSEC_LITTLEROOT_TOWN              0x00 //Eliminado
+#define MAPSEC_PUEBLO_VACIO                 0x00
 #define MAPSEC_OLDALE_TOWN                  0x01 //Eliminado
 #define MAPSEC_DEWFORD_TOWN                 0x02 //Eliminado
 #define MAPSEC_LAVARIDGE_TOWN               0x03 //Eliminado

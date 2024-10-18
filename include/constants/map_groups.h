@@ -6,6 +6,7 @@
 //
 
 // gMapGroup_TownsAndRoutes
+#define MAP_PUEBLO_VACIO (0 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 
