@@ -104,7 +104,6 @@ gStdScripts::
 gStdScripts_End::
 
 	.include "data/maps/Underwater_Route129/scripts.inc"
-	.include "data/maps/Underwater_Route125/scripts.inc"
 	.include "data/maps/DesertUnderpass/scripts.inc"
 	.include "data/maps/AlteringCave/scripts.inc"
 	.include "data/scripts/shared_secret_base.inc"

@@ -207,8 +207,8 @@
 #define MAPSEC_MARINE_CAVE                  0xCB //Eliminado
 #define MAPSEC_UNDERWATER_MARINE_CAVE       0xCC //Eliminado
 #define MAPSEC_TERRA_CAVE                   0xCD //Eliminado
-#define MAPSEC_UNDERWATER_105               0xCE //
-#define MAPSEC_UNDERWATER_125               0xCF
+#define MAPSEC_UNDERWATER_105               0xCE //Eliminado
+#define MAPSEC_UNDERWATER_125               0xCF //
 #define MAPSEC_UNDERWATER_129               0xD0
 #define MAPSEC_DESERT_UNDERPASS             0xD1
 #define MAPSEC_ALTERING_CAVE                0xD2
