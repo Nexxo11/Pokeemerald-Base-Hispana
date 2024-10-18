@@ -60,11 +60,6 @@ static void DoBrailleRegirockEffect(void);
 static void DoBrailleRegisteelEffect(void);
 
 /**
- * @file braille_puzzles.c
- * @brief Contiene funciones relacionadas con los rompecabezas en Braille en el juego.
- */
-
-/**
  * @brief Verifica si se debe activar el efecto de Cavar en Braille.
  *
  * Esta función determina si se debe activar el efecto de Cavar en Braille
@@ -294,8 +289,12 @@ bool8 FldEff_UsePuzzleEffect(void)
 
 // The puzzle to unlock Regice's cave requires the player to interact with the braille message on the back wall,
 // step on every space on the perimeter of the cave (and only those spaces) then return to the back wall.
+
+
+
 bool8 ShouldDoBrailleRegicePuzzle(void)
 {
+    /*
     u8 i;
 
     if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ISLAND_CAVE)
@@ -351,7 +350,7 @@ bool8 ShouldDoBrailleRegicePuzzle(void)
         // Player stepped on an incorrect space, puzzle failed.
         FlagSet(FLAG_TEMP_REGICE_PUZZLE_FAILED);
         FlagClear(FLAG_TEMP_REGICE_PUZZLE_STARTED);
-    }
+    }*/
 
     return FALSE;
 }
