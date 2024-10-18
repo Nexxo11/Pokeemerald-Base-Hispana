@@ -73,9 +73,9 @@
 #define MAPSEC_UNDERWATER_SEAFLOOR_CAVERN   0x45 //Eliminado
 #define MAPSEC_VICTORY_ROAD                 0x46 //Eliminado
 #define MAPSEC_MIRAGE_ISLAND                0x47 //Eliminado
-#define MAPSEC_CAVE_OF_ORIGIN               0x48 //
-#define MAPSEC_SOUTHERN_ISLAND              0x49
-#define MAPSEC_FIERY_PATH                   0x4A
+#define MAPSEC_CAVE_OF_ORIGIN               0x48 //Eliminado
+#define MAPSEC_SOUTHERN_ISLAND              0x49 //Eliminado
+#define MAPSEC_FIERY_PATH                   0x4A //
 #define MAPSEC_FIERY_PATH2                  0x4B //Eliminado
 #define MAPSEC_JAGGED_PASS                  0x4C
 #define MAPSEC_JAGGED_PASS2                 0x4D //Eliminado
