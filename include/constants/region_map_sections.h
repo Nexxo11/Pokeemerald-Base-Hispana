@@ -70,8 +70,8 @@
 #define MAPSEC_AQUA_HIDEOUT_OLD             0x42 //Eliminado
 #define MAPSEC_SHOAL_CAVE                   0x43 //Eliminado
 #define MAPSEC_SEAFLOOR_CAVERN              0x44 //Eliminado
-#define MAPSEC_UNDERWATER_SEAFLOOR_CAVERN   0x45 //
-#define MAPSEC_VICTORY_ROAD                 0x46
+#define MAPSEC_UNDERWATER_SEAFLOOR_CAVERN   0x45 //Eliminado
+#define MAPSEC_VICTORY_ROAD                 0x46 //
 #define MAPSEC_MIRAGE_ISLAND                0x47 //Eliminado
 #define MAPSEC_CAVE_OF_ORIGIN               0x48
 #define MAPSEC_SOUTHERN_ISLAND              0x49

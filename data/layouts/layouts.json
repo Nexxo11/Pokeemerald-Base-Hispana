@@ -102,16 +102,6 @@
             "blockdata_filepath": "data/layouts/CaveOfOrigin_B1F/map.bin"
         },
         {
-            "id": "LAYOUT_VICTORY_ROAD_1F",
-            "name": "VictoryRoad_1F_Layout",
-            "width": 46,
-            "height": 45,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/VictoryRoad_1F/border.bin",
-            "blockdata_filepath": "data/layouts/VictoryRoad_1F/map.bin"
-        },
-        {
             "id": "LAYOUT_SECRET_BASE_RED_CAVE1",
             "name": "SecretBase_RedCave1_Layout",
             "width": 11,
@@ -640,26 +630,6 @@
             "secondary_tileset": "gTileset_Cave",
             "border_filepath": "data/layouts/SealedChamber_OuterRoom/border.bin",
             "blockdata_filepath": "data/layouts/SealedChamber_OuterRoom/map.bin"
-        },
-        {
-            "id": "LAYOUT_VICTORY_ROAD_B1F",
-            "name": "VictoryRoad_B1F_Layout",
-            "width": 46,
-            "height": 31,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/VictoryRoad_B1F/border.bin",
-            "blockdata_filepath": "data/layouts/VictoryRoad_B1F/map.bin"
-        },
-        {
-            "id": "LAYOUT_VICTORY_ROAD_B2F",
-            "name": "VictoryRoad_B2F_Layout",
-            "width": 46,
-            "height": 31,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Cave",
-            "border_filepath": "data/layouts/VictoryRoad_B2F/border.bin",
-            "blockdata_filepath": "data/layouts/VictoryRoad_B2F/map.bin"
         },
         {
             "id": "LAYOUT_SOUTHERN_ISLAND_EXTERIOR",
