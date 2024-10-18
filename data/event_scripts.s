@@ -107,8 +107,6 @@ gStdScripts_End::
 	.include "data/maps/Underwater_Route105/scripts.inc"
 	.include "data/maps/Underwater_Route125/scripts.inc"
 	.include "data/maps/DesertUnderpass/scripts.inc"
-	.include "data/maps/ArtisanCave_B1F/scripts.inc"
-	.include "data/maps/ArtisanCave_1F/scripts.inc"
 	.include "data/maps/Underwater_MarineCave/scripts.inc"
 	.include "data/maps/MarineCave_Entrance/scripts.inc"
 	.include "data/maps/MarineCave_End/scripts.inc"
