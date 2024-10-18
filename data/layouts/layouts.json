@@ -72,16 +72,6 @@
             "blockdata_filepath": "data/layouts/DesertRuins/map.bin"
         },
         {
-            "id": "LAYOUT_UNDERWATER_SEAFLOOR_CAVERN",
-            "name": "Underwater_SeafloorCavern_Layout",
-            "width": 14,
-            "height": 9,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Underwater",
-            "border_filepath": "data/layouts/Underwater_SeafloorCavern/border.bin",
-            "blockdata_filepath": "data/layouts/Underwater_SeafloorCavern/map.bin"
-        },
-        {
             "id": "LAYOUT_CAVE_OF_ORIGIN_ENTRANCE",
             "name": "CaveOfOrigin_Entrance_Layout",
             "width": 19,
