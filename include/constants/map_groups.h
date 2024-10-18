@@ -59,11 +59,9 @@
 // gMapGroup_Dungeons
 #define MAP_DESERT_UNDERPASS       (0 | (24 << 8))
 #define MAP_UNDERWATER_MARINE_CAVE (1 | (24 << 8))
-#define MAP_MARINE_CAVE_ENTRANCE   (2 | (24 << 8))
-#define MAP_MARINE_CAVE_END        (3 | (24 << 8))
-#define MAP_TERRA_CAVE_ENTRANCE    (4 | (24 << 8))
-#define MAP_TERRA_CAVE_END         (5 | (24 << 8))
-#define MAP_ALTERING_CAVE          (6 | (24 << 8))
+#define MAP_TERRA_CAVE_ENTRANCE    (2 | (24 << 8))
+#define MAP_TERRA_CAVE_END         (3 | (24 << 8))
+#define MAP_ALTERING_CAVE          (4 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_BATTLE_COLOSSEUM_2P     (0 | (25 << 8))
