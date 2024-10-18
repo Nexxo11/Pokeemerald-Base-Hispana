@@ -68,8 +68,8 @@
 #define MAPSEC_METEOR_FALLS2                0x40 //Eliminado
 #define MAPSEC_MT_PYRE                      0x41 //Eliminado
 #define MAPSEC_AQUA_HIDEOUT_OLD             0x42 //Eliminado
-#define MAPSEC_SHOAL_CAVE                   0x43 //
-#define MAPSEC_SEAFLOOR_CAVERN              0x44
+#define MAPSEC_SHOAL_CAVE                   0x43 //Eliminado
+#define MAPSEC_SEAFLOOR_CAVERN              0x44 //
 #define MAPSEC_UNDERWATER_SEAFLOOR_CAVERN   0x45
 #define MAPSEC_VICTORY_ROAD                 0x46
 #define MAPSEC_MIRAGE_ISLAND                0x47 //Eliminado
@@ -88,7 +88,7 @@
 #define MAPSEC_INSIDE_OF_TRUCK              0x54
 #define MAPSEC_SKY_PILLAR                   0x55
 #define MAPSEC_SECRET_BASE                  0x56
-#define MAPSEC_DYNAMIC                      0x57
+#define MAPSEC_DYNAMIC                      0x57 //DOLOR DE CABEZAAAAAAAAAAAAAAAAA
 #define MAPSEC_PALLET_TOWN                  0x58 //Eliminado
 #define MAPSEC_VIRIDIAN_CITY                0x59 //Eliminado
 #define MAPSEC_PEWTER_CITY                  0x5A //Eliminado
