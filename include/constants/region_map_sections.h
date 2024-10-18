@@ -210,9 +210,9 @@
 #define MAPSEC_UNDERWATER_105               0xCE //Eliminado
 #define MAPSEC_UNDERWATER_125               0xCF //Eliminado
 #define MAPSEC_UNDERWATER_129               0xD0 //Eliminado
-#define MAPSEC_DESERT_UNDERPASS             0xD1 //
+#define MAPSEC_DESERT_UNDERPASS             0xD1 //Eliminado
 #define MAPSEC_ALTERING_CAVE                0xD2
-#define MAPSEC_NAVEL_ROCK                   0xD3
+#define MAPSEC_NAVEL_ROCK                   0xD3 //Eliminado
 #define MAPSEC_TRAINER_HILL                 0xD4
 #define MAPSEC_NONE                         0xD5
 
