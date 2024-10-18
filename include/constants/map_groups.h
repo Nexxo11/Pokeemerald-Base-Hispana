@@ -6,7 +6,6 @@
 //
 
 // gMapGroup_TownsAndRoutes
-#define MAP_UNDERWATER_ROUTE129 (0 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 

@@ -822,16 +822,6 @@
             "blockdata_filepath": "data/layouts/IslandHarbor/map.bin"
         },
         {
-            "id": "LAYOUT_UNDERWATER_ROUTE129",
-            "name": "Underwater_Route129_Layout",
-            "width": 80,
-            "height": 40,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Underwater",
-            "border_filepath": "data/layouts/Underwater_Route129/border.bin",
-            "blockdata_filepath": "data/layouts/Underwater_Route129/map.bin"
-        },
-        {
             "id": "LAYOUT_TRAINER_HILL_ENTRANCE",
             "name": "TrainerHill_Entrance_Layout",
             "width": 19,
