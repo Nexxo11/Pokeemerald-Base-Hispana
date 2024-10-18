@@ -82,8 +82,8 @@
 #define MAPSEC_SEALED_CHAMBER               0x4E //Eliminado
 #define MAPSEC_UNDERWATER_SEALED_CHAMBER    0x4F //Eliminado
 #define MAPSEC_SCORCHED_SLAB                0x50 //Eliminado
-#define MAPSEC_ISLAND_CAVE                  0x51 //
-#define MAPSEC_DESERT_RUINS                 0x52
+#define MAPSEC_ISLAND_CAVE                  0x51 //Eliminado
+#define MAPSEC_DESERT_RUINS                 0x52 //Eliminado
 #define MAPSEC_ANCIENT_TOMB                 0x53
 #define MAPSEC_INSIDE_OF_TRUCK              0x54
 #define MAPSEC_SKY_PILLAR                   0x55
