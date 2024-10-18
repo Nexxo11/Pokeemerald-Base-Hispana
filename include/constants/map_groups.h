@@ -57,10 +57,8 @@
 // gMapGroup_IndoorRoute121
 
 // gMapGroup_Dungeons
-#define MAP_DESERT_UNDERPASS    (0 | (24 << 8))
-#define MAP_TERRA_CAVE_ENTRANCE (1 | (24 << 8))
-#define MAP_TERRA_CAVE_END      (2 | (24 << 8))
-#define MAP_ALTERING_CAVE       (3 | (24 << 8))
+#define MAP_DESERT_UNDERPASS (0 | (24 << 8))
+#define MAP_ALTERING_CAVE    (1 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_BATTLE_COLOSSEUM_2P     (0 | (25 << 8))

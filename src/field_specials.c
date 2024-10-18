@@ -3472,21 +3472,21 @@ bool8 AbnormalWeatherHasExpired(void)
             case MAP_NUM(MARINE_CAVE_ENTRANCE):
             case MAP_NUM(MARINE_CAVE_END):
             case MAP_NUM(TERRA_CAVE_ENTRANCE):*/
-            case MAP_NUM(TERRA_CAVE_END):
+            case MAP_NUM(DYNAMIC):
                 VarSet(VAR_SHOULD_END_ABNORMAL_WEATHER, 1);
                 return FALSE;
             default:
                 break;
             }
         }
-        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(UNDERWATER_ROUTE129))
+        if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(BATTLE_FRONTIER_OUTSIDE_WEST))
         {
             switch (gSaveBlock1Ptr->location.mapNum)
             {/*
             case MAP_NUM(UNDERWATER_ROUTE127):
             case MAP_NUM(UNDERWATER_ROUTE129):
             case MAP_NUM(UNDERWATER_ROUTE105):*/
-            case MAP_NUM(TERRA_CAVE_END):
+            case MAP_NUM(DYNAMIC):
                 VarSet(VAR_SHOULD_END_ABNORMAL_WEATHER, 1);
                 return FALSE;
             default:
