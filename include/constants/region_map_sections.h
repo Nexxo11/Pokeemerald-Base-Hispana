@@ -199,8 +199,8 @@
 #define MAPSEC_EMBER_SPA                    0xC3
 #define MAPSEC_SPECIAL_AREA                 0xC4
 #define MAPSEC_AQUA_HIDEOUT                 0xC5
-#define MAPSEC_MAGMA_HIDEOUT                0xC6 //
-#define MAPSEC_MIRAGE_TOWER                 0xC7
+#define MAPSEC_MAGMA_HIDEOUT                0xC6 //Eliminado
+#define MAPSEC_MIRAGE_TOWER                 0xC7 //
 #define MAPSEC_BIRTH_ISLAND                 0xC8
 #define MAPSEC_FARAWAY_ISLAND               0xC9
 #define MAPSEC_ARTISAN_CAVE                 0xCA

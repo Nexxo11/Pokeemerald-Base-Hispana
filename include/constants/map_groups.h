@@ -57,19 +57,15 @@
 // gMapGroup_IndoorRoute121
 
 // gMapGroup_Dungeons
-#define MAP_MIRAGE_TOWER_1F        (0 | (24 << 8))
-#define MAP_MIRAGE_TOWER_2F        (1 | (24 << 8))
-#define MAP_MIRAGE_TOWER_3F        (2 | (24 << 8))
-#define MAP_MIRAGE_TOWER_4F        (3 | (24 << 8))
-#define MAP_DESERT_UNDERPASS       (4 | (24 << 8))
-#define MAP_ARTISAN_CAVE_B1F       (5 | (24 << 8))
-#define MAP_ARTISAN_CAVE_1F        (6 | (24 << 8))
-#define MAP_UNDERWATER_MARINE_CAVE (7 | (24 << 8))
-#define MAP_MARINE_CAVE_ENTRANCE   (8 | (24 << 8))
-#define MAP_MARINE_CAVE_END        (9 | (24 << 8))
-#define MAP_TERRA_CAVE_ENTRANCE    (10 | (24 << 8))
-#define MAP_TERRA_CAVE_END         (11 | (24 << 8))
-#define MAP_ALTERING_CAVE          (12 | (24 << 8))
+#define MAP_DESERT_UNDERPASS       (0 | (24 << 8))
+#define MAP_ARTISAN_CAVE_B1F       (1 | (24 << 8))
+#define MAP_ARTISAN_CAVE_1F        (2 | (24 << 8))
+#define MAP_UNDERWATER_MARINE_CAVE (3 | (24 << 8))
+#define MAP_MARINE_CAVE_ENTRANCE   (4 | (24 << 8))
+#define MAP_MARINE_CAVE_END        (5 | (24 << 8))
+#define MAP_TERRA_CAVE_ENTRANCE    (6 | (24 << 8))
+#define MAP_TERRA_CAVE_END         (7 | (24 << 8))
+#define MAP_ALTERING_CAVE          (8 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_BATTLE_COLOSSEUM_2P     (0 | (25 << 8))
