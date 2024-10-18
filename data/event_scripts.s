@@ -107,7 +107,6 @@ gStdScripts_End::
 	.include "data/maps/Underwater_Route105/scripts.inc"
 	.include "data/maps/Underwater_Route125/scripts.inc"
 	.include "data/maps/DesertRuins/scripts.inc"
-	.include "data/maps/JaggedPass/scripts.inc"
 	.include "data/maps/IslandCave/scripts.inc"
 	.include "data/maps/AncientTomb/scripts.inc"
 	.include "data/maps/Underwater_Route134/scripts.inc"
