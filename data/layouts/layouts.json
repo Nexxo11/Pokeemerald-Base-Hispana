@@ -572,26 +572,6 @@
             "blockdata_filepath": "data/layouts/AncientTomb/map.bin"
         },
         {
-            "id": "LAYOUT_UNDERWATER_ROUTE134",
-            "name": "Underwater_Route134_Layout",
-            "width": 18,
-            "height": 10,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Underwater",
-            "border_filepath": "data/layouts/Underwater_Route134/border.bin",
-            "blockdata_filepath": "data/layouts/Underwater_Route134/map.bin"
-        },
-        {
-            "id": "LAYOUT_UNDERWATER_SEALED_CHAMBER",
-            "name": "Underwater_SealedChamber_Layout",
-            "width": 22,
-            "height": 48,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Underwater",
-            "border_filepath": "data/layouts/Underwater_SealedChamber/border.bin",
-            "blockdata_filepath": "data/layouts/Underwater_SealedChamber/map.bin"
-        },
-        {
             "id": "LAYOUT_SCORCHED_SLAB",
             "name": "ScorchedSlab_Layout",
             "width": 15,
