@@ -3292,6 +3292,7 @@ static void Task_DeoxysRockInteraction(u8 taskId)
 
 static void ChangeDeoxysRockLevel(u8 rockLevel)
 {
+    /*
     u8 paletteNum = IndexOfSpritePaletteTag(OBJ_EVENT_PAL_TAG_BIRTH_ISLAND_STONE);
     LoadPalette(&sDeoxysRockPalettes[rockLevel], OBJ_PLTT_ID(paletteNum), PLTT_SIZEOF(4));
 
@@ -3316,6 +3317,7 @@ static void ChangeDeoxysRockLevel(u8 rockLevel)
 
     FieldEffectStart(FLDEFF_MOVE_DEOXYS_ROCK);
     SetObjEventTemplateCoords(LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK, sDeoxysRockCoords[rockLevel][0], sDeoxysRockCoords[rockLevel][1]);
+    */
 }
 
 static void WaitForDeoxysRockMovement(u8 taskId)
@@ -3329,6 +3331,7 @@ static void WaitForDeoxysRockMovement(u8 taskId)
 
 void IncrementBirthIslandRockStepCount(void)
 {
+    /*
     u16 stepCount = VarGet(VAR_DEOXYS_ROCK_STEP_COUNT);
     if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BIRTH_ISLAND_EXTERIOR) && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(BIRTH_ISLAND_EXTERIOR))
     {
@@ -3337,6 +3340,7 @@ void IncrementBirthIslandRockStepCount(void)
         else
             VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, stepCount);
     }
+    */
 }
 
 // called before fade-in
