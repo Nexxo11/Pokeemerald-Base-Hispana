@@ -63,7 +63,7 @@
 #define MAPSEC_PETALBURG_WOODS              0x3B //Eliminado
 #define MAPSEC_RUSTURF_TUNNEL               0x3C //Eliminado
 #define MAPSEC_ABANDONED_SHIP               0x3D //Eliminado
-#define MAPSEC_NEW_MAUVILLE                 0x3E
+#define MAPSEC_NEW_MAUVILLE                 0x3E //
 #define MAPSEC_METEOR_FALLS                 0x3F 
 #define MAPSEC_METEOR_FALLS2                0x40 //Eliminado
 #define MAPSEC_MT_PYRE                      0x41 

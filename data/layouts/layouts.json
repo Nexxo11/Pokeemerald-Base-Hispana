@@ -382,26 +382,6 @@
             "blockdata_filepath": "data/layouts/ShoalCave_HighTideInnerRoom/map.bin"
         },
         {
-            "id": "LAYOUT_NEW_MAUVILLE_ENTRANCE",
-            "name": "NewMauville_Entrance_Layout",
-            "width": 9,
-            "height": 9,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Facility",
-            "border_filepath": "data/layouts/NewMauville_Entrance/border.bin",
-            "blockdata_filepath": "data/layouts/NewMauville_Entrance/map.bin"
-        },
-        {
-            "id": "LAYOUT_NEW_MAUVILLE_INSIDE",
-            "name": "NewMauville_Inside_Layout",
-            "width": 41,
-            "height": 41,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_BikeShop",
-            "border_filepath": "data/layouts/NewMauville_Inside/border.bin",
-            "blockdata_filepath": "data/layouts/NewMauville_Inside/map.bin"
-        },
-        {
             "id": "LAYOUT_SECRET_BASE_RED_CAVE1",
             "name": "SecretBase_RedCave1_Layout",
             "width": 11,
