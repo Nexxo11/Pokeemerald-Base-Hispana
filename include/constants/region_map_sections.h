@@ -80,8 +80,8 @@
 #define MAPSEC_JAGGED_PASS                  0x4C //Eliminado
 #define MAPSEC_JAGGED_PASS2                 0x4D //Eliminado
 #define MAPSEC_SEALED_CHAMBER               0x4E //Eliminado
-#define MAPSEC_UNDERWATER_SEALED_CHAMBER    0x4F //
-#define MAPSEC_SCORCHED_SLAB                0x50
+#define MAPSEC_UNDERWATER_SEALED_CHAMBER    0x4F //Eliminado
+#define MAPSEC_SCORCHED_SLAB                0x50 //
 #define MAPSEC_ISLAND_CAVE                  0x51
 #define MAPSEC_DESERT_RUINS                 0x52
 #define MAPSEC_ANCIENT_TOMB                 0x53
