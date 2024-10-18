@@ -832,26 +832,6 @@
             "blockdata_filepath": "data/layouts/ArtisanCave_1F/map.bin"
         },
         {
-            "id": "LAYOUT_FARAWAY_ISLAND_ENTRANCE",
-            "name": "FarawayIsland_Entrance_Layout",
-            "width": 34,
-            "height": 46,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Rustboro",
-            "border_filepath": "data/layouts/FarawayIsland_Entrance/border.bin",
-            "blockdata_filepath": "data/layouts/FarawayIsland_Entrance/map.bin"
-        },
-        {
-            "id": "LAYOUT_FARAWAY_ISLAND_INTERIOR",
-            "name": "FarawayIsland_Interior_Layout",
-            "width": 29,
-            "height": 26,
-            "primary_tileset": "gTileset_General",
-            "secondary_tileset": "gTileset_Fortree",
-            "border_filepath": "data/layouts/FarawayIsland_Interior/border.bin",
-            "blockdata_filepath": "data/layouts/FarawayIsland_Interior/map.bin"
-        },
-        {
             "id": "LAYOUT_ISLAND_HARBOR",
             "name": "IslandHarbor_Layout",
             "width": 17,

@@ -782,6 +782,7 @@ static void CheckAcroBikeCollision(s16 x, s16 y, u8 metatileBehavior, u8 *collis
 
 bool8 IsPlayerCollidingWithFarawayIslandMew(u8 direction)
 {
+    /*
     u8 mewObjectId;
     struct ObjectEvent *object;
     s16 playerX;
@@ -810,7 +811,7 @@ bool8 IsPlayerCollidingWithFarawayIslandMew(u8 direction)
                 object->previousCoords.y == playerY)
                 return TRUE;
         }
-    }
+    }*/
     return FALSE;
 }
 

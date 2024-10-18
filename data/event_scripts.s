@@ -174,8 +174,6 @@ gStdScripts_End::
 	.include "data/maps/BattleFrontier_PokemonCenter_1F/scripts.inc"
 	.include "data/maps/BattleFrontier_PokemonCenter_2F/scripts.inc"
 	.include "data/maps/BattleFrontier_Mart/scripts.inc"
-	.include "data/maps/FarawayIsland_Entrance/scripts.inc"
-	.include "data/maps/FarawayIsland_Interior/scripts.inc"
 	.include "data/maps/TrainerHill_Entrance/scripts.inc"
 	.include "data/maps/TrainerHill_1F/scripts.inc"
 	.include "data/maps/TrainerHill_2F/scripts.inc"
